@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<EmbeddedProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
+  <ToolchainVersion>
+    <GCC>5.x</GCC>
+    <Revision>1</Revision>
+  </ToolchainVersion>
+  <BspID>KEIL:Keil/STM32F1xx_DFP</BspID>
+  <BspVersion>2.3.0</BspVersion>
+  <McuID>STM32F103ZE</McuID>
+  <MCUDefinitionFile>SVD/STM32F103xx.svd</MCUDefinitionFile>
+  <MCUProperties>
+    <Entries />
+  </MCUProperties>
+  <BSPSourceFolderName>Device-specific files</BSPSourceFolderName>
+  <MCUMakFile>mcu.mak</MCUMakFile>
+  <FrameworkProperties>
+    <Entries />
+  </FrameworkProperties>
+  <TestFrameworkProperties>
+    <Entries />
+  </TestFrameworkProperties>
+</EmbeddedProfile>

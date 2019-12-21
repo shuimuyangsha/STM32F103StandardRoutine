@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|VisualGDB">
+      <Configuration>Debug</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|VisualGDB">
+      <Configuration>Release</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{1EDDF1D0-C1C6-4353-871E-D51720ACE2AB}</ProjectGuid>
+    <BSP_ID>KEIL:Keil/STM32F1xx_DFP</BSP_ID>
+    <BSP_VERSION>2.3.0</BSP_VERSION>
+    <InPlaceBSPSubdir />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)mcu.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)mcu.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <GNUConfigurationType>Debug</GNUConfigurationType>
+    <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
+    <ToolchainVersion>5.x//r1</ToolchainVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
+    <ToolchainVersion>5.x//r1</ToolchainVersion>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\LED;..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\SYSTEM\delay;..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\SYSTEM\sys;..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\SYSTEM\usart;..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\USER;..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\STM32F10x_FWLib\inc;..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\CORE;..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\KEY;..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\LCD;..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\IAP;..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\STMFLASH;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>STM32F10X_HD;USE_STDPERIPH_DRIVER;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions />
+      <CLanguageStandard />
+      <CPPLanguageStandard />
+    </ClCompile>
+    <Link>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalOptions />
+    </Link>
+    <KeilSettingsContainer>
+      <KeilCPUType>Cortex-M3</KeilCPUType>
+    </KeilSettingsContainer>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\LED;..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\SYSTEM\delay;..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\SYSTEM\sys;..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\SYSTEM\usart;..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\USER;..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\STM32F10x_FWLib\inc;..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\CORE;..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\KEY;..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\LCD;..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\IAP;..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\STMFLASH;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>STM32F10X_HD;USE_STDPERIPH_DRIVER;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions />
+      <CLanguageStandard />
+      <CPPLanguageStandard />
+    </ClCompile>
+    <Link>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalOptions />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\USER\main.c" />
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\USER\stm32f10x_it.c" />
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\USER\system_stm32f10x.c" />
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\LED\led.c" />
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\KEY\key.c" />
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\LCD\lcd.c" />
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\STMFLASH\stmflash.c" />
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\SYSTEM\delay\delay.c" />
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\SYSTEM\sys\sys.c" />
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\SYSTEM\usart\usart.c" />
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\CORE\core_cm3.c" />
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\CORE\startup_stm32f10x_hd.s" />
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\STM32F10x_FWLib\src\misc.c" />
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\STM32F10x_FWLib\src\stm32f10x_fsmc.c" />
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\STM32F10x_FWLib\src\stm32f10x_gpio.c" />
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\STM32F10x_FWLib\src\stm32f10x_rcc.c" />
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\STM32F10x_FWLib\src\stm32f10x_usart.c" />
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\STM32F10x_FWLib\src\stm32f10x_flash.c" />
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\IAP\iap.c" />
+    <None Include="..\..\..\..\..\..\..\..\嵌入式学习\资料\正点原子战舰STM32F103ZET6\战舰V3 视频盘(D盘)\第86讲 IAP在应用编程原理\第86讲 IAP在应用编程原理.rmvb" />
+    <None Include="mcu.props" />
+    <None Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\README.TXT" />
+    <ClInclude Include="$(BSP_ROOT)\Device\Include\stm32f10x.h" />
+    <None Include="Experiment_47_1Serial_IAP_BootloaderV1_0-Debug.vgdbsettings" />
+    <None Include="Experiment_47_1Serial_IAP_BootloaderV1_0-Release.vgdbsettings" />
+    <None Include="MCU.xml" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{892ee5d1-5e4c-4b59-a222-0493972402cf}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{ce6e203c-2403-4cb5-bb03-f418c7183079}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{cda0558d-b37b-4aa9-bd29-170c55b28efb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\USER">
+      <UniqueIdentifier>{2ba81585-b417-4c2f-bf18-92c2c2e02fe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\HARDWARE">
+      <UniqueIdentifier>{9e36c09d-27e4-46cd-a9d6-ff8afc1ce381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\SYSTEM">
+      <UniqueIdentifier>{c60a5f52-717e-4ced-9fbb-7eb00e646654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\CORE">
+      <UniqueIdentifier>{28817b54-7f9e-4e1a-b564-059f57c9ce7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\FWLib">
+      <UniqueIdentifier>{e0f7e69d-0ad6-4a64-94ff-647fc0d6934e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\IAP">
+      <UniqueIdentifier>{5bee8faa-3363-4678-9dbe-210afcb09b10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\README">
+      <UniqueIdentifier>{b5d13fbd-756a-4800-bb77-6e85c83e7f1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{70956de2-d248-4d63-a15f-ef7f829c47df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USER">
+      <UniqueIdentifier>{03c028ba-11b6-49eb-97d6-b95ecbe84e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\HARDWARE">
+      <UniqueIdentifier>{7b220a30-796e-47b2-b22c-56ccba636b30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\SYSTEM">
+      <UniqueIdentifier>{b949c507-3eaf-4b70-af8e-fb73ec5fdb6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\CORE">
+      <UniqueIdentifier>{4e80a609-7511-4c87-83a9-83f2003b5cb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\FWLib">
+      <UniqueIdentifier>{f1b5523a-0d20-4294-944a-12e5fea9f383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\IAP">
+      <UniqueIdentifier>{49b21d78-24bc-42ee-abf6-9657813489dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\README">
+      <UniqueIdentifier>{e6e75a62-066d-4361-9333-a7f7f6af5d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{1d36826a-7afb-4f31-ad84-f8cac60c3d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{8f3f8145-98d5-4eec-b52c-14b889d4eead}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\USER\main.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\USER\stm32f10x_it.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\USER\system_stm32f10x.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\LED\led.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\KEY\key.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\LCD\lcd.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\STMFLASH\stmflash.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\SYSTEM\delay\delay.c">
+      <Filter>Source files\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\SYSTEM\sys\sys.c">
+      <Filter>Source files\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\SYSTEM\usart\usart.c">
+      <Filter>Source files\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\CORE\core_cm3.c">
+      <Filter>Source files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\CORE\startup_stm32f10x_hd.s">
+      <Filter>Source files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\STM32F10x_FWLib\src\misc.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\STM32F10x_FWLib\src\stm32f10x_fsmc.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\STM32F10x_FWLib\src\stm32f10x_gpio.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\STM32F10x_FWLib\src\stm32f10x_rcc.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\STM32F10x_FWLib\src\stm32f10x_usart.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\STM32F10x_FWLib\src\stm32f10x_flash.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\IAP\iap.c">
+      <Filter>Source files\IAP</Filter>
+    </ClCompile>
+    <None Include="mcu.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <None Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\README.TXT">
+      <Filter>Header files\README</Filter>
+    </None>
+    <ClInclude Include="$(BSP_ROOT)\Device\Include\stm32f10x.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <None Include="Experiment_47_1Serial_IAP_BootloaderV1_0-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="Experiment_47_1Serial_IAP_BootloaderV1_0-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="MCU.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\..\嵌入式学习\资料\正点原子战舰STM32F103ZET6\战舰V3 视频盘(D盘)\第86讲 IAP在应用编程原理\第86讲 IAP在应用编程原理.rmvb">
+      <Filter>Resource files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

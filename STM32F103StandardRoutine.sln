@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_01_HorseRaceLamp", "Experiment_01_HorseRaceLamp\Project\VS\Experiment_01_HorseRaceLamp\Experiment_01_HorseRaceLamp.vcxproj", "{E56F67C0-7D35-434C-9565-F57B79CC961D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_47_1Serial_IAP_BootloaderV1_0", "Experiment_47_Serial_IAP\Project\VS\Experiment_47_1Serial_IAP_BootloaderV1_0\Experiment_47_1Serial_IAP_BootloaderV1_0.vcxproj", "{1EDDF1D0-C1C6-4353-871E-D51720ACE2AB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_47_2Serial_IAP_RTC_FLASH_APP", "Experiment_47_Serial_IAP\Project\VS\Experiment_47_2Serial_IAP_RTC_FLASH_APP\Experiment_47_2Serial_IAP_RTC_FLASH_APP.vcxproj", "{1878EAA3-80F0-4469-86CD-E3BA39F2CD48}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP", "Experiment_47_Serial_IAP\Project\VS\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP.vcxproj", "{78DE273A-86EC-48D0-9C71-C185526E1B26}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		Release|VisualGDB = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E56F67C0-7D35-434C-9565-F57B79CC961D}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{E56F67C0-7D35-434C-9565-F57B79CC961D}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{E56F67C0-7D35-434C-9565-F57B79CC961D}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{E56F67C0-7D35-434C-9565-F57B79CC961D}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{1EDDF1D0-C1C6-4353-871E-D51720ACE2AB}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{1EDDF1D0-C1C6-4353-871E-D51720ACE2AB}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{1EDDF1D0-C1C6-4353-871E-D51720ACE2AB}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{1EDDF1D0-C1C6-4353-871E-D51720ACE2AB}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{1878EAA3-80F0-4469-86CD-E3BA39F2CD48}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{1878EAA3-80F0-4469-86CD-E3BA39F2CD48}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{1878EAA3-80F0-4469-86CD-E3BA39F2CD48}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{1878EAA3-80F0-4469-86CD-E3BA39F2CD48}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{78DE273A-86EC-48D0-9C71-C185526E1B26}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{78DE273A-86EC-48D0-9C71-C185526E1B26}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{78DE273A-86EC-48D0-9C71-C185526E1B26}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{78DE273A-86EC-48D0-9C71-C185526E1B26}.Release|VisualGDB.Build.0 = Release|VisualGDB
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

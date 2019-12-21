@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{c3063882-b7dc-43ab-ae65-6498828977c8}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{207c793e-feb4-4fd8-802f-69c2f4651e8f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{b829a353-2a9b-4f83-9d3c-3972a1812e04}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\USER">
+      <UniqueIdentifier>{c4a7daa8-d303-40c8-8e5f-059407f0bd97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\HARDWARE">
+      <UniqueIdentifier>{60cb326b-4dfb-428d-ae4d-2aaa4ffb0020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\SYSTEM">
+      <UniqueIdentifier>{1d2a4265-fa25-4089-b17c-9f5db0b72b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\CORE">
+      <UniqueIdentifier>{5a891e27-bd22-4f0b-93f2-d749cf869c72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\FWLib">
+      <UniqueIdentifier>{ca320725-89ca-4da2-84c8-7fe5c3d092b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{1bd4247f-0cb8-4648-841d-747636048fc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USER">
+      <UniqueIdentifier>{50d23b3c-26d7-48c0-b561-7a476dcb1c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\HARDWARE">
+      <UniqueIdentifier>{df0e7061-38bd-47b6-9470-7e7eb9e0264d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\SYSTEM">
+      <UniqueIdentifier>{b789dc99-c07c-4867-8b53-09d134f2eaa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\CORE">
+      <UniqueIdentifier>{db14675e-520e-497a-ba93-e93c0a5110e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\FWLib">
+      <UniqueIdentifier>{8e2ff3e4-2a76-401d-a000-1ced7deb67e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{152e1a0d-7645-4852-8777-e430e583bfbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{730210c6-70b6-4179-ae31-33c8feffa9ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\USER\main.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\USER\stm32f10x_it.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\USER\system_stm32f10x.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\LED\led.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\KEY\key.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\LCD\lcd.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\IIC\myiic.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\24CXX\24cxx.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\SPI\spi.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\W25QXX\w25qxx.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\TOUCH\touch.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\TOUCH\ctiic.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\TOUCH\ott2001a.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\TOUCH\ft5206.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\TOUCH\gt9147.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\SYSTEM\delay\delay.c">
+      <Filter>Source files\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\SYSTEM\sys\sys.c">
+      <Filter>Source files\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\SYSTEM\usart\usart.c">
+      <Filter>Source files\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\CORE\core_cm3.c">
+      <Filter>Source files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\CORE\startup_stm32f10x_hd.s">
+      <Filter>Source files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\STM32F10x_FWLib\src\misc.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\STM32F10x_FWLib\src\stm32f10x_fsmc.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\STM32F10x_FWLib\src\stm32f10x_gpio.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\STM32F10x_FWLib\src\stm32f10x_rcc.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\STM32F10x_FWLib\src\stm32f10x_spi.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\STM32F10x_FWLib\src\stm32f10x_usart.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <None Include="mcu.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <ClInclude Include="$(BSP_ROOT)\Device\Include\stm32f10x.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <None Include="Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="MCU.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -11,6 +11,20 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_47_2Serial_IAP_R
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP", "Experiment_47_Serial_IAP\Project\VS\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP.vcxproj", "{78DE273A-86EC-48D0-9C71-C185526E1B26}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E913B9A2-8F06-40A0-9965-624CB9895361}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\嵌入式学习\资料\野火STM32\1-F429至尊版\A盘（资料盘）\8-C语言学习资料\C程序设计语言（第2版·新版）.pdf = ..\..\..\..\嵌入式学习\资料\野火STM32\1-F429至尊版\A盘（资料盘）\8-C语言学习资料\C程序设计语言（第2版·新版）.pdf
+		..\..\..\..\嵌入式学习\资料\正点原子战舰STM32F103ZET6\战舰V3 资料盘(A盘)\STM32F1开发指南-库函数版本_V3.1 .pdf = ..\..\..\..\嵌入式学习\资料\正点原子战舰STM32F103ZET6\战舰V3 资料盘(A盘)\STM32F1开发指南-库函数版本_V3.1 .pdf
+		..\..\..\..\嵌入式学习\资料\野火STM32\1-F429至尊版\A盘（资料盘）\4-开发软件\uC_Probe\第三步 帮助文件\uC-Probe-UsersManual.pdf = ..\..\..\..\嵌入式学习\资料\野火STM32\1-F429至尊版\A盘（资料盘）\4-开发软件\uC_Probe\第三步 帮助文件\uC-Probe-UsersManual.pdf
+		..\..\..\..\嵌入式学习\资料\正点原子战舰STM32F103ZET6\战舰V3 资料盘(A盘)\3，ALIENTEK战舰STM32F1 V3开发板原理图\WarShip STM32F1_V3.4_SCH.pdf = ..\..\..\..\嵌入式学习\资料\正点原子战舰STM32F103ZET6\战舰V3 资料盘(A盘)\3，ALIENTEK战舰STM32F1 V3开发板原理图\WarShip STM32F1_V3.4_SCH.pdf
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_08_TimerInterrupts", "Experiment_08_TimerInterrupts\Project\VS\Experiment_08_TimerInterrupts\Experiment_08_TimerInterrupts.vcxproj", "{D162D307-5533-4E05-939B-9960B271C948}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_09_PWMOutput", "Experiment_09_PWMOutput\Project\VS\Experiment_09_PWMOutput\Experiment_09_PWMOutput.vcxproj", "{6A24DE18-1640-43AF-9154-F0FCC4A63246}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_24_SPI", "Experiment_24_SPI_SerialPeripheralInterface\Project\VS\Experiment_24_SPI\Experiment_24_SPI.vcxproj", "{038EDEF9-DCB7-48B4-A246-74E7C780F8A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|VisualGDB = Debug|VisualGDB
@@ -33,6 +47,18 @@ Global
 		{78DE273A-86EC-48D0-9C71-C185526E1B26}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
 		{78DE273A-86EC-48D0-9C71-C185526E1B26}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
 		{78DE273A-86EC-48D0-9C71-C185526E1B26}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{D162D307-5533-4E05-939B-9960B271C948}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{D162D307-5533-4E05-939B-9960B271C948}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{D162D307-5533-4E05-939B-9960B271C948}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{D162D307-5533-4E05-939B-9960B271C948}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{6A24DE18-1640-43AF-9154-F0FCC4A63246}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{6A24DE18-1640-43AF-9154-F0FCC4A63246}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{6A24DE18-1640-43AF-9154-F0FCC4A63246}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{6A24DE18-1640-43AF-9154-F0FCC4A63246}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{038EDEF9-DCB7-48B4-A246-74E7C780F8A0}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{038EDEF9-DCB7-48B4-A246-74E7C780F8A0}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{038EDEF9-DCB7-48B4-A246-74E7C780F8A0}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{038EDEF9-DCB7-48B4-A246-74E7C780F8A0}.Release|VisualGDB.Build.0 = Release|VisualGDB
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -98,7 +98,9 @@
     <ClCompile Include="..\..\..\Experiment_47_2Serial_IAP_RTC_FLASH_APP\USMART\usmart.c" />
     <ClCompile Include="..\..\..\Experiment_47_2Serial_IAP_RTC_FLASH_APP\USMART\usmart_config.c" />
     <ClCompile Include="..\..\..\Experiment_47_2Serial_IAP_RTC_FLASH_APP\USMART\usmart_str.c" />
-    <None Include="mcu.props" />
+    <None Include="mcu.props">
+      <SubType>Designer</SubType>
+    </None>
     <ClInclude Include="$(BSP_ROOT)\Device\Include\stm32f10x.h" />
     <None Include="Experiment_47_2Serial_IAP_RTC_FLASH_APP-Debug.vgdbsettings" />
     <None Include="Experiment_47_2Serial_IAP_RTC_FLASH_APP-Release.vgdbsettings" />

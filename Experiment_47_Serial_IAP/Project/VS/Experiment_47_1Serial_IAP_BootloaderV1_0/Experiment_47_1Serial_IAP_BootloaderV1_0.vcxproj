@@ -93,6 +93,7 @@
     <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\STM32F10x_FWLib\src\stm32f10x_usart.c" />
     <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\STM32F10x_FWLib\src\stm32f10x_flash.c" />
     <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\IAP\iap.c" />
+    <None Include="..\..\..\..\..\..\..\..\嵌入式学习\资料\正点原子战舰STM32F103ZET6\战舰V3 视频盘(D盘)\第86讲 IAP在应用编程原理\第86讲 IAP在应用编程原理-M3.ppt" />
     <None Include="..\..\..\..\..\..\..\..\嵌入式学习\资料\正点原子战舰STM32F103ZET6\战舰V3 视频盘(D盘)\第86讲 IAP在应用编程原理\第86讲 IAP在应用编程原理.rmvb" />
     <None Include="mcu.props" />
     <None Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\README.TXT" />

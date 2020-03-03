@@ -146,5 +146,8 @@
     <None Include="..\..\..\..\..\..\..\..\嵌入式学习\资料\正点原子战舰STM32F103ZET6\战舰V3 视频盘(D盘)\第86讲 IAP在应用编程原理\第86讲 IAP在应用编程原理.rmvb">
       <Filter>Resource files</Filter>
     </None>
+    <None Include="..\..\..\..\..\..\..\..\嵌入式学习\资料\正点原子战舰STM32F103ZET6\战舰V3 视频盘(D盘)\第86讲 IAP在应用编程原理\第86讲 IAP在应用编程原理-M3.ppt">
+      <Filter>Resource files</Filter>
+    </None>
   </ItemGroup>
 </Project>

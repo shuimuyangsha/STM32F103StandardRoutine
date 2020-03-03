@@ -2,6 +2,7 @@
 #include "delay.h"
 #include "usart.h"
 #include "led.h"
+#include "extreme3d.h"
  
  
 /************************************************
@@ -29,18 +30,47 @@
 //		delay_ms(300);	//延时300ms
 //	}
 // }
-
+//int DebugLED[2][2];
  int main(void)
  {	
 	delay_init();	    //延时函数初始化	  
 	LED_Init();		  	//初始化与LED连接的硬件接口
 	while(1)
 	{
+//		if (extreme3d.joystickRotationZ.getJoystickState > 32770) {
+//			Compass = (extreme3d.joystickRotationZ.getJoystickState-32768) / 182;
+//		}
+//		else if (extreme3d.joystickRotationZ.getJoystickState < 32766) {
+//			Compass = (extreme3d.joystickRotationZ.getJoystickState + 32768) / 182 ;
+//		}
+//		else {
+//			Compass = 0;
+//		}
 
-		LED1=1;
+//		//Compass = extreme3d.joystickRotationZ.getJoystickState/182/3;
+
+//		debugLED0.setState = extreme3d.buttons0.getButtonsState;
+//		debugLED1.setState = extreme3d.buttons1.getButtonsState;
+
+//		LED0 = debugLED0.setState >> 7;
+//		LED1 = debugLED1.setState >> 7;
+
+//		debugLED0.getState = GPIO_ReadOutputDataBit(GPIOB, GPIO_Pin_5);
+//		debugLED1.getState = GPIO_ReadOutputDataBit(GPIOE, GPIO_Pin_5);
+
+//		//DebugLED[0][0] = 1;
+//		//delay_ms(300);	 //延时300ms
+
+//		//LED1 = debugLED1.setState;
+//		//DebugLED[0][0] = 0;
+//		//delay_ms(300);	//延时300ms
+
+		debugLED1.setState = 1;
+		LED1 = 1;
 		delay_ms(300);	 //延时300ms
 
-		LED1=0;
+		debugLED1.setState = 0;
+		LED1 = 0;
 		delay_ms(300);	//延时300ms
 	}
  }

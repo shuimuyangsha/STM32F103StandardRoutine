@@ -21,7 +21,7 @@
 	<ItemDefinitionGroup>
 		<Link>
 			<RAMBase  Condition="('%(Link.RAMBase)' == '') and ('%(Link.LinkerScript)' == '')">0x20000000</RAMBase>
-			<ROMBase  Condition="('%(Link.ROMBase)' == '') and ('%(Link.LinkerScript)' == '')">0x08000000</ROMBase>
+			<ROMBase  Condition="('%(Link.ROMBase)' == '') and ('%(Link.LinkerScript)' == '')">0x08010000</ROMBase>
 			<EntryPoint  Condition="('%(Link.EntryPoint)' == '') and ('%(Link.LinkerScript)' == '')">Reset_Handler</EntryPoint>
 			<FirstSymbol  Condition="('%(Link.FirstSymbol)' == '') and ('%(Link.LinkerScript)' == '')">__Vectors</FirstSymbol>
 		</Link>

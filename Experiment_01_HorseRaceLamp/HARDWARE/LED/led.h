@@ -18,6 +18,12 @@
 
 //#define LED1 PCout(13)// PC13
 
+typedef struct debug_led {
+	u8 getState;
+	u8 setState;
+}DebugLED;
+
+extern DebugLED debugLED0, debugLED1;
 
 void LED_Init(void);//≥ı ºªØ
 

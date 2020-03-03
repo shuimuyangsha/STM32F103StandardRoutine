@@ -82,22 +82,22 @@
         <Book>
           <Number>0</Number>
           <Title>Quick Start Guide (MCBSTM32E)</Title>
-          <Path>C:\For DXH\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Boards\Keil\MCBSTM32E\Documentation\STM32E_QSG.pdf</Path>
+          <Path>G:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Boards\Keil\MCBSTM32E\Documentation\STM32E_QSG.pdf</Path>
         </Book>
         <Book>
           <Number>1</Number>
           <Title>Base Board Schematics (MCBSTM32E)</Title>
-          <Path>C:\For DXH\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Boards\Keil\MCBSTM32E\Documentation\mcbstm32e-base-board-schematics.pdf</Path>
+          <Path>G:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Boards\Keil\MCBSTM32E\Documentation\mcbstm32e-base-board-schematics.pdf</Path>
         </Book>
         <Book>
           <Number>2</Number>
           <Title>Display Board Schematics (MCBSTM32E)</Title>
-          <Path>C:\For DXH\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Boards\Keil\MCBSTM32E\Documentation\mcbstm32e-display-board-schematics.pdf</Path>
+          <Path>G:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Boards\Keil\MCBSTM32E\Documentation\mcbstm32e-display-board-schematics.pdf</Path>
         </Book>
         <Book>
           <Number>3</Number>
           <Title>User Manual (MCBSTM32E)</Title>
-          <Path>C:\For DXH\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Boards\Keil\MCBSTM32E\Documentation\mcbstm32e.chm</Path>
+          <Path>G:\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Boards\Keil\MCBSTM32E\Documentation\mcbstm32e.chm</Path>
         </Book>
         <Book>
           <Number>4</Number>
@@ -127,7 +127,7 @@
         <tRSysVw>0</tRSysVw>
         <sRunDeb>0</sRunDeb>
         <sLrtime>0</sLrtime>
-        <nTsel>2</nTsel>
+        <nTsel>3</nTsel>
         <sDll></sDll>
         <sDllPa></sDllPa>
         <sDlgDll></sDlgDll>
@@ -138,9 +138,14 @@
         <tDlgDll></tDlgDll>
         <tDlgPa></tDlgPa>
         <tIfile></tIfile>
-        <pMon>BIN\CMSIS_AGDI.dll</pMon>
+        <pMon>Segger\JL2CM3.dll</pMon>
       </DebugOpt>
       <TargetDriverDllRegistry>
+        <SetRegEntry>
+          <Number>0</Number>
+          <Key>JL2CM3</Key>
+          <Name>-U59425868 -O78 -S2 -ZTIFSpeedSel5000 -A0 -C0 -JU1 -JI127.0.0.1 -JP0 -RST0 -N00("ARM CoreSight SW-DP") -D00(1BA01477) -L00(0) -TO18 -TC10000000 -TP21 -TDS8007 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -TB1 -TFE0 -FO15 -FD20000000 -FC1000 -FN1 -FF0STM32F10x_128.FLM -FS08000000 -FL020000 -FP0($$Device:STM32F103C8$Flash\STM32F10x_128.FLM)</Name>
+        </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
           <Key>ARMRTXEVENTFLAGS</Key>
@@ -164,7 +169,7 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>UL2CM3</Key>
-          <Name>UL2CM3(-S0 -C0 -P0 )  -FN1 -FC1000 -FD20000000 -FF0STM32F10x_512 -FL080000 -FS08000000 -FP0($$Device:STM32F103ZE$Flash\STM32F10x_512.FLM)</Name>
+          <Name>UL2CM3(-S0 -C0 -P0 )  -FN1 -FC1000 -FD20000000 -FF0STM32F10x_128 -FL020000 -FS08000000 -FP0($$Device:STM32F103C8$Flash\STM32F10x_128.FLM)</Name>
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>

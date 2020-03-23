@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{c9ce52c1-40e1-4433-85de-d91d6531f370}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{ceacff79-3e9a-49bb-8bd2-dc2322aa331f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{e760c628-c264-4e84-b880-21bc9e3dc216}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\USER">
+      <UniqueIdentifier>{90f9da76-b469-47f1-8f8a-0218333d9d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\HARDWARE">
+      <UniqueIdentifier>{38612f71-661a-4a4f-b9d0-8b59fce27279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\SYSTEM">
+      <UniqueIdentifier>{83534e2a-0458-4b5c-bd47-9529e71d9ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\CORE">
+      <UniqueIdentifier>{ede4e5ea-0ec0-48b9-8376-d2c33e17fc18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\FWLib">
+      <UniqueIdentifier>{d126f4c8-5bb0-44cc-bb32-4864df4220e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\README">
+      <UniqueIdentifier>{7760ffda-50b6-4629-8fda-55daa792ad9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{c5117d24-05c3-4052-8d01-cbce3f01f8a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USER">
+      <UniqueIdentifier>{7b377d05-01dd-4483-a7ff-99a446739812}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\HARDWARE">
+      <UniqueIdentifier>{4787de14-4360-4e7d-b5a0-86eb00487107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\SYSTEM">
+      <UniqueIdentifier>{d3b1f405-646c-497d-9820-1481ea2e5095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\CORE">
+      <UniqueIdentifier>{5756cfb5-3a5c-4946-980c-115daba17682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\FWLib">
+      <UniqueIdentifier>{2e91715a-e02f-453f-8762-a591941023db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\README">
+      <UniqueIdentifier>{65105ded-ff27-490e-b327-27c10786c060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{4ce3e30b-7ce0-466a-8672-c9d2a37a773f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{dbb3ace0-7296-4ba4-b14f-2a30d0324f86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\USER\main.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\USER\stm32f10x_it.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\USER\system_stm32f10x.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HARDWARE\LED\led.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HARDWARE\KEY\key.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HARDWARE\LCD\lcd.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\HARDWARE\CAN\can.c">
+      <Filter>Source files\HARDWARE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SYSTEM\delay\delay.c">
+      <Filter>Source files\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SYSTEM\sys\sys.c">
+      <Filter>Source files\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SYSTEM\usart\usart.c">
+      <Filter>Source files\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CORE\core_cm3.c">
+      <Filter>Source files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CORE\startup_stm32f10x_hd.s">
+      <Filter>Source files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\misc.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_fsmc.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_gpio.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_rcc.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_can.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_usart.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <None Include="mcu.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <None Include="..\..\..\README.TXT">
+      <Filter>Header files\README</Filter>
+    </None>
+    <ClInclude Include="$(BSP_ROOT)\Device\Include\stm32f10x.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <None Include="Experiment_26_CAN_ControllerAreaNetwork-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="Experiment_26_CAN_ControllerAreaNetwork-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="MCU.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+</Project>

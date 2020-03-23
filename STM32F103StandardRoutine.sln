@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_24_SPI", "Experi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_04_SerialPort", "Experiment_04_SerialPort\Project\VS\Experiment_04_SerialPort\Experiment_04_SerialPort.vcxproj", "{247FEB65-394D-49ED-8CED-7131EDF91278}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_26_CAN_ControllerAreaNetwork", "Experiment_26_CAN_ControllerAreaNetwork\Project\VS\Experiment_26_CAN_ControllerAreaNetwork\Experiment_26_CAN_ControllerAreaNetwork.vcxproj", "{7F740A36-1FA8-42E7-9C9F-9B1E71662646}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|VisualGDB = Debug|VisualGDB
@@ -65,6 +67,10 @@ Global
 		{247FEB65-394D-49ED-8CED-7131EDF91278}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
 		{247FEB65-394D-49ED-8CED-7131EDF91278}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
 		{247FEB65-394D-49ED-8CED-7131EDF91278}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{7F740A36-1FA8-42E7-9C9F-9B1E71662646}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{7F740A36-1FA8-42E7-9C9F-9B1E71662646}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{7F740A36-1FA8-42E7-9C9F-9B1E71662646}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{7F740A36-1FA8-42E7-9C9F-9B1E71662646}.Release|VisualGDB.Build.0 = Release|VisualGDB
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

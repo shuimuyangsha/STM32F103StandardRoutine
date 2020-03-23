@@ -38,18 +38,21 @@ u8 CAN_Mode_Init(u8 tsjw,u8 tbs2,u8 tbs1,u16 brp,u8 mode)
 	NVIC_InitTypeDef  		NVIC_InitStructure;
 #endif
 
-	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);//使能PORTA时钟	                   											 
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);//使能PORTB时钟	                   											 
 
 	RCC_APB1PeriphClockCmd(RCC_APB1Periph_CAN1, ENABLE);//使能CAN1时钟	
 
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_12;
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO, ENABLE); //如果你把CAN控制器的引脚重映射到PB8、PB9,你需要调用GPIO_PinRemapConfig
+	GPIO_PinRemapConfig(GPIO_Remap1_CAN1, ENABLE);
+
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_9;
 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;	//复用推挽
-	GPIO_Init(GPIOA, &GPIO_InitStructure);			//初始化IO
+	GPIO_Init(GPIOB, &GPIO_InitStructure);			//初始化IO
 
-	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_11;
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_8;
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;	//上拉输入
-	GPIO_Init(GPIOA, &GPIO_InitStructure);			//初始化IO
+	GPIO_Init(GPIOB, &GPIO_InitStructure);			//初始化IO
 
 	//CAN单元设置
 	CAN_InitStructure.CAN_TTCM=DISABLE;			//非时间触发通信模式  

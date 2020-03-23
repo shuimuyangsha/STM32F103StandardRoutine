@@ -42,14 +42,15 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
     <ClCompile>
       <AdditionalIncludeDirectories>..\..\..\HARDWARE\LED;..\..\..\SYSTEM\delay;..\..\..\SYSTEM\sys;..\..\..\SYSTEM\usart;..\..\..\USER;..\..\..\STM32F10x_FWLib\inc;..\..\..\CORE;..\..\..\HARDWARE\KEY;..\..\..\HARDWARE\LCD;..\..\..\HARDWARE\RTC;..\..\..\HARDWARE\WKUP;..\..\..\HARDWARE\ADC;..\..\..\HARDWARE\DAC;..\..\..\HARDWARE\DMA;..\..\..\HARDWARE\IIC;..\..\..\HARDWARE\24CXX;..\..\..\HARDWARE\SPI;..\..\..\HARDWARE\FLASH;..\..\..\HARDWARE\TOUCH;..\..\..\HARDWARE\RS485;..\..\..\HARDWARE\CAN;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>STM32F10X_HD;USE_STDPERIPH_DRIVER;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>STM32F10X_MD;USE_STDPERIPH_DRIVER;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalOptions />
       <CLanguageStandard />
       <CPPLanguageStandard />
     </ClCompile>
     <Link>
-      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalLinkerInputs>;%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
       <AdditionalOptions />
+      <LinkerScript />
     </Link>
     <KeilSettingsContainer>
       <KeilCPUType>Cortex-M3</KeilCPUType>
@@ -98,5 +99,6 @@
     <None Include="Experiment_26_CAN_ControllerAreaNetwork-Debug.vgdbsettings" />
     <None Include="Experiment_26_CAN_ControllerAreaNetwork-Release.vgdbsettings" />
     <None Include="MCU.xml" />
+    <ClInclude Include="RTE/RTE_Components.h" />
   </ItemGroup>
 </Project>

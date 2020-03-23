@@ -7,7 +7,7 @@
   </ToolchainVersion>
   <BspID>KEIL:Keil/STM32F1xx_DFP</BspID>
   <BspVersion>2.3.0</BspVersion>
-  <McuID>STM32F103ZE</McuID>
+  <McuID>STM32F103C8</McuID>
   <MCUDefinitionFile>SVD/STM32F103xx.svd</MCUDefinitionFile>
   <MCUProperties>
     <Entries />
@@ -159,4 +159,7 @@
       </ImportedConfiguration>
     </Configurations>
   </ImportedProject>
+  <SyntheticFrameworkFolderNames>
+    <string>RTE</string>
+  </SyntheticFrameworkFolderNames>
 </EmbeddedProfile>

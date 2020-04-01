@@ -27,7 +27,7 @@
     <AllDependencies>
       <ProjectDependency>
         <RelativePath>..\..\..\USER\PWM.uvprojx</RelativePath>
-        <Timestamp>131846607154318388</Timestamp>
+        <Timestamp>132230105821727777</Timestamp>
       </ProjectDependency>
     </AllDependencies>
     <RootDirectory>
@@ -80,9 +80,6 @@
             <VirtualFileSnapshot>
               <RelativePath>..\..\..\CORE\core_cm3.c</RelativePath>
             </VirtualFileSnapshot>
-            <VirtualFileSnapshot>
-              <RelativePath>..\..\..\CORE\startup_stm32f10x_hd.s</RelativePath>
-            </VirtualFileSnapshot>
           </Files>
         </VirtualDirectorySnapshot>
         <VirtualDirectorySnapshot>
@@ -120,17 +117,18 @@
       <ImportedConfiguration>
         <Settings>
           <IncludeDirectories>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_09_PWMOutput\HARDWARE\LED</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_09_PWMOutput\SYSTEM\delay</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_09_PWMOutput\SYSTEM\sys</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_09_PWMOutput\SYSTEM\usart</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_09_PWMOutput\USER</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_09_PWMOutput\STM32F10x_FWLib\inc</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_09_PWMOutput\CORE</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_09_PWMOutput\HARDWARE\KEY</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_09_PWMOutput\HARDWARE\TIMER</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_09_PWMOutput\HARDWARE\LED</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_09_PWMOutput\SYSTEM\delay</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_09_PWMOutput\SYSTEM\sys</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_09_PWMOutput\SYSTEM\usart</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_09_PWMOutput\USER</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_09_PWMOutput\STM32F10x_FWLib\inc</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_09_PWMOutput\CORE</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_09_PWMOutput\HARDWARE\KEY</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_09_PWMOutput\HARDWARE\TIMER</string>
           </IncludeDirectories>
           <PreprocessorMacros>
+            <string>$$com.sysprogs.bspoptions.primary_memory$$_layout</string>
             <string>STM32F10X_HD</string>
             <string>USE_STDPERIPH_DRIVER</string>
           </PreprocessorMacros>

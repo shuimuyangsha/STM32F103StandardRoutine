@@ -111,9 +111,6 @@
     <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\CORE\core_cm3.c">
       <Filter>Source files\CORE</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\CORE\startup_stm32f10x_hd.s">
-      <Filter>Source files\CORE</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\STM32F10x_FWLib\src\misc.c">
       <Filter>Source files\FWLib</Filter>
     </ClCompile>

@@ -27,7 +27,7 @@
     <AllDependencies>
       <ProjectDependency>
         <RelativePath>..\..\..\USER\LED.uvprojx</RelativePath>
-        <Timestamp>132186486571692201</Timestamp>
+        <Timestamp>132284847813364826</Timestamp>
       </ProjectDependency>
     </AllDependencies>
     <RootDirectory>
@@ -52,6 +52,9 @@
             <VirtualFileSnapshot>
               <RelativePath>..\..\..\HARDWARE\LED\led.c</RelativePath>
             </VirtualFileSnapshot>
+            <VirtualFileSnapshot>
+              <RelativePath>..\..\..\HARDWARE\EXTREME3D\extreme3d.c</RelativePath>
+            </VirtualFileSnapshot>
           </Files>
         </VirtualDirectorySnapshot>
         <VirtualDirectorySnapshot>
@@ -73,9 +76,6 @@
           <Files>
             <VirtualFileSnapshot>
               <RelativePath>..\..\..\CORE\core_cm3.c</RelativePath>
-            </VirtualFileSnapshot>
-            <VirtualFileSnapshot>
-              <RelativePath>..\..\..\CORE\startup_stm32f10x_hd.s</RelativePath>
             </VirtualFileSnapshot>
           </Files>
         </VirtualDirectorySnapshot>
@@ -114,15 +114,17 @@
       <ImportedConfiguration>
         <Settings>
           <IncludeDirectories>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\USER</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\CORE</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\STM32F10x_FWLib\inc</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\SYSTEM\delay</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\SYSTEM\sys</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\SYSTEM\usart</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\HARDWARE\LED</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\USER</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\CORE</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\STM32F10x_FWLib\inc</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\SYSTEM\delay</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\SYSTEM\sys</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\SYSTEM\usart</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\HARDWARE\LED</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\HARDWARE\EXTREME3D</string>
           </IncludeDirectories>
           <PreprocessorMacros>
+            <string>$$com.sysprogs.bspoptions.primary_memory$$_layout</string>
             <string>STM32F10X_HD</string>
             <string>USE_STDPERIPH_DRIVER</string>
           </PreprocessorMacros>

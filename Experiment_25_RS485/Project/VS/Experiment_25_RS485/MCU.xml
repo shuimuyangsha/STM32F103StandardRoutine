@@ -23,11 +23,11 @@
   </TestFrameworkProperties>
   <ImportedProject>
     <ImporterID>com.sysprogs.project_importers.keil</ImporterID>
-    <RelativeProjectPath>..\..\..\USER\USART.uvprojx</RelativeProjectPath>
+    <RelativeProjectPath>..\..\..\USER\RS485.uvprojx</RelativeProjectPath>
     <AllDependencies>
       <ProjectDependency>
-        <RelativePath>..\..\..\USER\USART.uvprojx</RelativePath>
-        <Timestamp>132277023986554144</Timestamp>
+        <RelativePath>..\..\..\USER\RS485.uvprojx</RelativePath>
+        <Timestamp>132230105871202079</Timestamp>
       </ProjectDependency>
     </AllDependencies>
     <RootDirectory>
@@ -55,6 +55,12 @@
             <VirtualFileSnapshot>
               <RelativePath>..\..\..\HARDWARE\KEY\key.c</RelativePath>
             </VirtualFileSnapshot>
+            <VirtualFileSnapshot>
+              <RelativePath>..\..\..\HARDWARE\LCD\lcd.c</RelativePath>
+            </VirtualFileSnapshot>
+            <VirtualFileSnapshot>
+              <RelativePath>..\..\..\HARDWARE\RS485\rs485.c</RelativePath>
+            </VirtualFileSnapshot>
           </Files>
         </VirtualDirectorySnapshot>
         <VirtualDirectorySnapshot>
@@ -77,6 +83,9 @@
             <VirtualFileSnapshot>
               <RelativePath>..\..\..\CORE\core_cm3.c</RelativePath>
             </VirtualFileSnapshot>
+            <VirtualFileSnapshot>
+              <RelativePath>..\..\..\CORE\startup_stm32f10x_hd.s</RelativePath>
+            </VirtualFileSnapshot>
           </Files>
         </VirtualDirectorySnapshot>
         <VirtualDirectorySnapshot>
@@ -84,6 +93,9 @@
           <Files>
             <VirtualFileSnapshot>
               <RelativePath>..\..\..\STM32F10x_FWLib\src\misc.c</RelativePath>
+            </VirtualFileSnapshot>
+            <VirtualFileSnapshot>
+              <RelativePath>..\..\..\STM32F10x_FWLib\src\stm32f10x_fsmc.c</RelativePath>
             </VirtualFileSnapshot>
             <VirtualFileSnapshot>
               <RelativePath>..\..\..\STM32F10x_FWLib\src\stm32f10x_gpio.c</RelativePath>
@@ -111,18 +123,30 @@
       <ImportedConfiguration>
         <Settings>
           <IncludeDirectories>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_04_SerialPort\HARDWARE\LED</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_04_SerialPort\SYSTEM\delay</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_04_SerialPort\SYSTEM\sys</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_04_SerialPort\SYSTEM\usart</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_04_SerialPort\USER</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_04_SerialPort\STM32F10x_FWLib\inc</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_04_SerialPort\CORE</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_04_SerialPort\HARDWARE\KEY</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_25_RS485\HARDWARE\LED</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_25_RS485\SYSTEM\delay</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_25_RS485\SYSTEM\sys</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_25_RS485\SYSTEM\usart</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_25_RS485\USER</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_25_RS485\STM32F10x_FWLib\inc</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_25_RS485\CORE</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_25_RS485\HARDWARE\KEY</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_25_RS485\HARDWARE\LCD</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_25_RS485\HARDWARE\RTC</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_25_RS485\HARDWARE\RTC</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_25_RS485\HARDWARE\WKUP</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_25_RS485\HARDWARE\ADC</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_25_RS485\HARDWARE\DAC</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_25_RS485\HARDWARE\DMA</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_25_RS485\HARDWARE\IIC</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_25_RS485\HARDWARE\24CXX</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_25_RS485\HARDWARE\SPI</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_25_RS485\HARDWARE\FLASH</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_25_RS485\HARDWARE\TOUCH</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_25_RS485\HARDWARE\RS485</string>
           </IncludeDirectories>
           <PreprocessorMacros>
-            <string>$$com.sysprogs.bspoptions.primary_memory$$_layout</string>
-            <string>STM32F10X_MD</string>
+            <string>STM32F10X_HD</string>
             <string>USE_STDPERIPH_DRIVER</string>
           </PreprocessorMacros>
           <GeneratePreprocessorOutput>false</GeneratePreprocessorOutput>

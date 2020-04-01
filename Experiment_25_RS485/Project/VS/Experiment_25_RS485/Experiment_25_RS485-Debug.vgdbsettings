@@ -17,7 +17,7 @@
         <Revision>0</Revision>
       </Version>
     </ToolchainID>
-    <ProjectFile>Experiment_47_2Serial_IAP_RTC_FLASH_APP.vcxproj</ProjectFile>
+    <ProjectFile>Experiment_25_RS485.vcxproj</ProjectFile>
     <RemoteBuildEnvironment>
       <Records />
     </RemoteBuildEnvironment>
@@ -92,8 +92,6 @@
     </AdditionalGDBSettings>
     <DebugMethod>
       <ID>jlink-jtag</ID>
-      <InterfaceID>com.sysprogs.debug.jlink.jlinksw</InterfaceID>
-      <InterfaceSerialNumber>000059401308</InterfaceSerialNumber>
       <Configuration xsi:type="com.visualgdb.edp.segger.settings">
         <CommandLine>-select USB -device $$SYS:MCU_ID$$ -speed auto -if SWD</CommandLine>
         <ProgramMode>Enabled</ProgramMode>
@@ -104,6 +102,7 @@
         </StartupCommands>
         <UseUnreliableLiveMemoryEngine>false</UseUnreliableLiveMemoryEngine>
         <ProgramFLASHUsingExternalTool>false</ProgramFLASHUsingExternalTool>
+        <PreferredGDBPort>0</PreferredGDBPort>
       </Configuration>
     </DebugMethod>
     <AutoDetectRTOS>true</AutoDetectRTOS>

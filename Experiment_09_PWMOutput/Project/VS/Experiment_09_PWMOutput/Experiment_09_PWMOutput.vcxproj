@@ -49,8 +49,9 @@
       <CPPLanguageStandard />
     </ClCompile>
     <Link>
-      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalLinkerInputs>;%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
       <AdditionalOptions />
+      <LinkerScript />
     </Link>
     <KeilSettingsContainer>
       <KeilCPUType>Cortex-M3</KeilCPUType>
@@ -59,7 +60,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
     <ClCompile>
       <AdditionalIncludeDirectories>..\..\..\HARDWARE\LED;..\..\..\SYSTEM\delay;..\..\..\SYSTEM\sys;..\..\..\SYSTEM\usart;..\..\..\USER;..\..\..\STM32F10x_FWLib\inc;..\..\..\CORE;..\..\..\HARDWARE\KEY;..\..\..\HARDWARE\TIMER;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>STM32F10X_HD;USE_STDPERIPH_DRIVER;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG=1;RELEASE=1;$$com.sysprogs.bspoptions.primary_memory$$_layout;STM32F10X_HD;USE_STDPERIPH_DRIVER;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalOptions />
       <CLanguageStandard />
       <CPPLanguageStandard />
@@ -85,7 +86,6 @@
     <ClCompile Include="..\..\..\SYSTEM\sys\sys.c" />
     <ClCompile Include="..\..\..\SYSTEM\usart\usart.c" />
     <ClCompile Include="..\..\..\CORE\core_cm3.c" />
-    <ClCompile Include="..\..\..\CORE\startup_stm32f10x_hd.s" />
     <ClCompile Include="..\..\..\STM32F10x_FWLib\src\misc.c" />
     <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_gpio.c" />
     <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_rcc.c" />

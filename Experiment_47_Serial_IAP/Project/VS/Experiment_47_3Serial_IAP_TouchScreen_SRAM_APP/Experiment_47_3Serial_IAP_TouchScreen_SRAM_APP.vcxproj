@@ -48,8 +48,9 @@
       <CPPLanguageStandard />
     </ClCompile>
     <Link>
-      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalLinkerInputs>;%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
       <AdditionalOptions />
+      <LinkerScript />
     </Link>
     <KeilSettingsContainer>
       <KeilCPUType>Cortex-M3</KeilCPUType>
@@ -58,7 +59,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
     <ClCompile>
       <AdditionalIncludeDirectories>..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\LED;..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\SYSTEM\delay;..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\SYSTEM\sys;..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\SYSTEM\usart;..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\USER;..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\STM32F10x_FWLib\inc;..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\CORE;..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\KEY;..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\LCD;..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\RTC;..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\WKUP;..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\ADC;..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\DAC;..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\DMA;..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\IIC;..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\24CXX;..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\SPI;..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\FLASH;..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\TOUCH;..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\W25QXX;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>STM32F10X_HD;USE_STDPERIPH_DRIVER;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>NDEBUG=1;RELEASE=1;$$com.sysprogs.bspoptions.primary_memory$$_layout;STM32F10X_HD;USE_STDPERIPH_DRIVER;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalOptions />
       <CLanguageStandard />
       <CPPLanguageStandard />
@@ -93,7 +94,6 @@
     <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\SYSTEM\sys\sys.c" />
     <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\SYSTEM\usart\usart.c" />
     <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\CORE\core_cm3.c" />
-    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\CORE\startup_stm32f10x_hd.s" />
     <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\STM32F10x_FWLib\src\misc.c" />
     <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\STM32F10x_FWLib\src\stm32f10x_fsmc.c" />
     <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\STM32F10x_FWLib\src\stm32f10x_gpio.c" />

@@ -27,7 +27,7 @@
     <AllDependencies>
       <ProjectDependency>
         <RelativePath>..\..\..\USER\SPI.uvprojx</RelativePath>
-        <Timestamp>130756153277346674</Timestamp>
+        <Timestamp>132230105869556540</Timestamp>
       </ProjectDependency>
     </AllDependencies>
     <RootDirectory>
@@ -86,9 +86,6 @@
             <VirtualFileSnapshot>
               <RelativePath>..\..\..\CORE\core_cm3.c</RelativePath>
             </VirtualFileSnapshot>
-            <VirtualFileSnapshot>
-              <RelativePath>..\..\..\CORE\startup_stm32f10x_hd.s</RelativePath>
-            </VirtualFileSnapshot>
           </Files>
         </VirtualDirectorySnapshot>
         <VirtualDirectorySnapshot>
@@ -132,27 +129,28 @@
       <ImportedConfiguration>
         <Settings>
           <IncludeDirectories>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\LED</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\SYSTEM\delay</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\SYSTEM\sys</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\SYSTEM\usart</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\USER</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\STM32F10x_FWLib\inc</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\CORE</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\KEY</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\LCD</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\RTC</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\RTC</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\WKUP</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\ADC</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\DAC</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\DMA</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\IIC</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\24CXX</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\SPI</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\W25QXX</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\LED</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\SYSTEM\delay</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\SYSTEM\sys</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\SYSTEM\usart</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\USER</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\STM32F10x_FWLib\inc</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\CORE</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\KEY</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\LCD</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\RTC</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\RTC</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\WKUP</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\ADC</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\DAC</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\DMA</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\IIC</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\24CXX</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\SPI</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_24_SPI_SerialPeripheralInterface\HARDWARE\W25QXX</string>
           </IncludeDirectories>
           <PreprocessorMacros>
+            <string>$$com.sysprogs.bspoptions.primary_memory$$_layout</string>
             <string>STM32F10X_HD</string>
             <string>USE_STDPERIPH_DRIVER</string>
           </PreprocessorMacros>

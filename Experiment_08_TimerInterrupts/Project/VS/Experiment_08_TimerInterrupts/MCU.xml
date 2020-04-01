@@ -27,7 +27,7 @@
     <AllDependencies>
       <ProjectDependency>
         <RelativePath>..\..\..\USER\TIMER.uvprojx</RelativePath>
-        <Timestamp>132186554647445705</Timestamp>
+        <Timestamp>132277822368540363</Timestamp>
       </ProjectDependency>
     </AllDependencies>
     <RootDirectory>
@@ -80,9 +80,6 @@
             <VirtualFileSnapshot>
               <RelativePath>..\..\..\CORE\core_cm3.c</RelativePath>
             </VirtualFileSnapshot>
-            <VirtualFileSnapshot>
-              <RelativePath>..\..\..\CORE\startup_stm32f10x_hd.s</RelativePath>
-            </VirtualFileSnapshot>
           </Files>
         </VirtualDirectorySnapshot>
         <VirtualDirectorySnapshot>
@@ -120,17 +117,18 @@
       <ImportedConfiguration>
         <Settings>
           <IncludeDirectories>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\HARDWARE\LED</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\SYSTEM\delay</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\SYSTEM\sys</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\SYSTEM\usart</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\USER</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\STM32F10x_FWLib\inc</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\CORE</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\HARDWARE\KEY</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\HARDWARE\TIMER</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\HARDWARE\LED</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\SYSTEM\delay</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\SYSTEM\sys</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\SYSTEM\usart</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\USER</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\STM32F10x_FWLib\inc</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\CORE</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\HARDWARE\KEY</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\HARDWARE\TIMER</string>
           </IncludeDirectories>
           <PreprocessorMacros>
+            <string>$$com.sysprogs.bspoptions.primary_memory$$_layout</string>
             <string>STM32F10X_HD</string>
             <string>USE_STDPERIPH_DRIVER</string>
           </PreprocessorMacros>

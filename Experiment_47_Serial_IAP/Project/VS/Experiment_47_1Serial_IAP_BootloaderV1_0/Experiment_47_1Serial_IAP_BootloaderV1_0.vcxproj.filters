@@ -99,9 +99,6 @@
     <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\CORE\core_cm3.c">
       <Filter>Source files\CORE</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\CORE\startup_stm32f10x_hd.s">
-      <Filter>Source files\CORE</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\STM32F10x_FWLib\src\misc.c">
       <Filter>Source files\FWLib</Filter>
     </ClCompile>

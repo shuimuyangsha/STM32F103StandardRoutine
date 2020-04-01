@@ -27,7 +27,7 @@
     <AllDependencies>
       <ProjectDependency>
         <RelativePath>..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\USER\IAP.uvprojx</RelativePath>
-        <Timestamp>130748749504167683</Timestamp>
+        <Timestamp>132230105944289597</Timestamp>
       </ProjectDependency>
     </AllDependencies>
     <RootDirectory>
@@ -83,9 +83,6 @@
             <VirtualFileSnapshot>
               <RelativePath>..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\CORE\core_cm3.c</RelativePath>
             </VirtualFileSnapshot>
-            <VirtualFileSnapshot>
-              <RelativePath>..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\CORE\startup_stm32f10x_hd.s</RelativePath>
-            </VirtualFileSnapshot>
           </Files>
         </VirtualDirectorySnapshot>
         <VirtualDirectorySnapshot>
@@ -134,19 +131,20 @@
       <ImportedConfiguration>
         <Settings>
           <IncludeDirectories>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\LED</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_1Serial_IAP_BootloaderV1_0\SYSTEM\delay</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_1Serial_IAP_BootloaderV1_0\SYSTEM\sys</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_1Serial_IAP_BootloaderV1_0\SYSTEM\usart</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_1Serial_IAP_BootloaderV1_0\USER</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_1Serial_IAP_BootloaderV1_0\STM32F10x_FWLib\inc</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_1Serial_IAP_BootloaderV1_0\CORE</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\KEY</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\LCD</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_1Serial_IAP_BootloaderV1_0\IAP</string>
-            <string>E:\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\STMFLASH</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\LED</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_1Serial_IAP_BootloaderV1_0\SYSTEM\delay</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_1Serial_IAP_BootloaderV1_0\SYSTEM\sys</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_1Serial_IAP_BootloaderV1_0\SYSTEM\usart</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_1Serial_IAP_BootloaderV1_0\USER</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_1Serial_IAP_BootloaderV1_0\STM32F10x_FWLib\inc</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_1Serial_IAP_BootloaderV1_0\CORE</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\KEY</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\LCD</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_1Serial_IAP_BootloaderV1_0\IAP</string>
+            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_1Serial_IAP_BootloaderV1_0\HARDWARE\STMFLASH</string>
           </IncludeDirectories>
           <PreprocessorMacros>
+            <string>$$com.sysprogs.bspoptions.primary_memory$$_layout</string>
             <string>STM32F10X_HD</string>
             <string>USE_STDPERIPH_DRIVER</string>
           </PreprocessorMacros>

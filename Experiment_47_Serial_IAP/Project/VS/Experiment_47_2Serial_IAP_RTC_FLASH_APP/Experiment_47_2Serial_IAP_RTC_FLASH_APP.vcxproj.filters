@@ -93,9 +93,6 @@
     <ClCompile Include="..\..\..\Experiment_47_2Serial_IAP_RTC_FLASH_APP\CORE\core_cm3.c">
       <Filter>Source files\CORE</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Experiment_47_2Serial_IAP_RTC_FLASH_APP\CORE\startup_stm32f10x_hd.s">
-      <Filter>Source files\CORE</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\Experiment_47_2Serial_IAP_RTC_FLASH_APP\STM32F10x_FWLib\src\misc.c">
       <Filter>Source files\FWLib</Filter>
     </ClCompile>

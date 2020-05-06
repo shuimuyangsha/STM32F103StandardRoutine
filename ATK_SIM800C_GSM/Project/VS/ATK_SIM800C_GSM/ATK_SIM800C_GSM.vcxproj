@@ -118,6 +118,8 @@
     <ClCompile Include="..\..\..\TEXT\fontupd.c" />
     <ClCompile Include="..\..\..\TEXT\text.c" />
     <ClCompile Include="..\..\..\SIM800C\sim800c.c" />
+    <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\探索者F4 资料盘(A盘)\9，增值资料\1，ALIENTEK 产品资料\17，ATK-SIM800C GSM GPRS模块\ATK-SIM800C GSM(GPRS)模块用户手册_V1.pdf" />
+    <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\探索者F4 资料盘(A盘)\9，增值资料\1，ALIENTEK 产品资料\17，ATK-SIM800C GSM GPRS模块\ATK-SIM800C 模块使用说明（战舰 V3）_AN1604D .pdf" />
     <None Include="mcu.props" />
     <None Include="..\..\..\README.TXT" />
     <ClInclude Include="$(BSP_ROOT)\Device\Include\stm32f10x.h" />

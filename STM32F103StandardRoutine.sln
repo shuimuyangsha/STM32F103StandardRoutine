@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_26_CAN_Controlle
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_25_RS485", "Experiment_25_RS485\Project\VS\Experiment_25_RS485\Experiment_25_RS485.vcxproj", "{901FF4A3-A493-4813-8841-92D6B9D982A0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ATK_SIM800C_GSM", "ATK_SIM800C_GSM\Project\VS\ATK_SIM800C_GSM\ATK_SIM800C_GSM.vcxproj", "{1963232F-FF14-404C-982A-A7614DF6449B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|VisualGDB = Debug|VisualGDB
@@ -77,6 +79,10 @@ Global
 		{901FF4A3-A493-4813-8841-92D6B9D982A0}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
 		{901FF4A3-A493-4813-8841-92D6B9D982A0}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
 		{901FF4A3-A493-4813-8841-92D6B9D982A0}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{1963232F-FF14-404C-982A-A7614DF6449B}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{1963232F-FF14-404C-982A-A7614DF6449B}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{1963232F-FF14-404C-982A-A7614DF6449B}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{1963232F-FF14-404C-982A-A7614DF6449B}.Release|VisualGDB.Build.0 = Release|VisualGDB
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

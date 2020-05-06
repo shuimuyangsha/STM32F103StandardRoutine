@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|VisualGDB">
+      <Configuration>Debug</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|VisualGDB">
+      <Configuration>Release</Configuration>
+      <Platform>VisualGDB</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{1963232F-FF14-404C-982A-A7614DF6449B}</ProjectGuid>
+    <BSP_ID>KEIL:Keil/STM32F1xx_DFP</BSP_ID>
+    <BSP_VERSION>2.3.0</BSP_VERSION>
+    <InPlaceBSPSubdir />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)mcu.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <MCUPropertyListFile>$(ProjectDir)mcu.props</MCUPropertyListFile>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <GNUConfigurationType>Debug</GNUConfigurationType>
+    <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
+    <ToolchainVersion>5.x//r1</ToolchainVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ToolchainID>com.sysprogs.toolchains.nongnu.armcc</ToolchainID>
+    <ToolchainVersion>5.x//r1</ToolchainVersion>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\HARDWARE\LED;..\..\..\SYSTEM\delay;..\..\..\SYSTEM\sys;..\..\..\SYSTEM\usart;..\..\..\USER;..\..\..\STM32F10x_FWLib\inc;..\..\..\CORE;..\..\..\HARDWARE\KEY;..\..\..\HARDWARE\LCD;..\..\..\HARDWARE\RTC;..\..\..\HARDWARE\WKUP;..\..\..\HARDWARE\ADC;..\..\..\HARDWARE\DAC;..\..\..\HARDWARE\DMA;..\..\..\HARDWARE\IIC;..\..\..\HARDWARE\24CXX;..\..\..\HARDWARE\SPI;..\..\..\HARDWARE\FLASH;..\..\..\HARDWARE\TOUCH;..\..\..\HARDWARE\REMOTE;..\..\..\HARDWARE\ADXL345;..\..\..\HARDWARE\DS18B20;..\..\..\HARDWARE\NRF24L01;..\..\..\HARDWARE\SRAM;..\..\..\MALLOC;..\..\..\HARDWARE\SD;..\..\..\FATFS\exfuns;..\..\..\FATFS\src;..\..\..\USMART;..\..\..\FATFS\src\option;..\..\..\HARDWARE\SDIO;..\..\..\TEXT;..\..\..\HARDWARE\W25QXX;..\..\..\HARDWARE\USART3;..\..\..\HARDWARE\TIMER;..\..\..\SIM800C;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>STM32F10X_HD;USE_STDPERIPH_DRIVER;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions />
+      <CLanguageStandard />
+      <CPPLanguageStandard />
+    </ClCompile>
+    <Link>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalOptions />
+    </Link>
+    <KeilSettingsContainer>
+      <KeilCPUType>Cortex-M3</KeilCPUType>
+    </KeilSettingsContainer>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\HARDWARE\LED;..\..\..\SYSTEM\delay;..\..\..\SYSTEM\sys;..\..\..\SYSTEM\usart;..\..\..\USER;..\..\..\STM32F10x_FWLib\inc;..\..\..\CORE;..\..\..\HARDWARE\KEY;..\..\..\HARDWARE\LCD;..\..\..\HARDWARE\RTC;..\..\..\HARDWARE\WKUP;..\..\..\HARDWARE\ADC;..\..\..\HARDWARE\DAC;..\..\..\HARDWARE\DMA;..\..\..\HARDWARE\IIC;..\..\..\HARDWARE\24CXX;..\..\..\HARDWARE\SPI;..\..\..\HARDWARE\FLASH;..\..\..\HARDWARE\TOUCH;..\..\..\HARDWARE\REMOTE;..\..\..\HARDWARE\ADXL345;..\..\..\HARDWARE\DS18B20;..\..\..\HARDWARE\NRF24L01;..\..\..\HARDWARE\SRAM;..\..\..\MALLOC;..\..\..\HARDWARE\SD;..\..\..\FATFS\exfuns;..\..\..\FATFS\src;..\..\..\USMART;..\..\..\FATFS\src\option;..\..\..\HARDWARE\SDIO;..\..\..\TEXT;..\..\..\HARDWARE\W25QXX;..\..\..\HARDWARE\USART3;..\..\..\HARDWARE\TIMER;..\..\..\SIM800C;%(ClCompile.AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>STM32F10X_HD;USE_STDPERIPH_DRIVER;%(ClCompile.PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions />
+      <CLanguageStandard />
+      <CPPLanguageStandard />
+    </ClCompile>
+    <Link>
+      <AdditionalLinkerInputs>%(Link.AdditionalLinkerInputs)</AdditionalLinkerInputs>
+      <AdditionalOptions />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\USER\main.c" />
+    <ClCompile Include="..\..\..\USER\stm32f10x_it.c" />
+    <ClCompile Include="..\..\..\USER\system_stm32f10x.c" />
+    <ClCompile Include="..\..\..\HARDWARE\LED\led.c" />
+    <ClCompile Include="..\..\..\HARDWARE\KEY\key.c" />
+    <ClCompile Include="..\..\..\HARDWARE\LCD\lcd.c" />
+    <ClCompile Include="..\..\..\HARDWARE\SPI\spi.c" />
+    <ClCompile Include="..\..\..\HARDWARE\W25QXX\w25qxx.c" />
+    <ClCompile Include="..\..\..\HARDWARE\SDIO\sdio_sdcard.c" />
+    <ClCompile Include="..\..\..\HARDWARE\24CXX\24cxx.c" />
+    <ClCompile Include="..\..\..\HARDWARE\IIC\myiic.c" />
+    <ClCompile Include="..\..\..\HARDWARE\TOUCH\ctiic.c" />
+    <ClCompile Include="..\..\..\HARDWARE\TOUCH\ft5206.c" />
+    <ClCompile Include="..\..\..\HARDWARE\TOUCH\gt9147.c" />
+    <ClCompile Include="..\..\..\HARDWARE\TOUCH\ott2001a.c" />
+    <ClCompile Include="..\..\..\HARDWARE\TOUCH\touch.c" />
+    <ClCompile Include="..\..\..\HARDWARE\TIMER\timer.c" />
+    <ClCompile Include="..\..\..\HARDWARE\USART3\usart3.c" />
+    <ClCompile Include="..\..\..\SYSTEM\delay\delay.c" />
+    <ClCompile Include="..\..\..\SYSTEM\sys\sys.c" />
+    <ClCompile Include="..\..\..\SYSTEM\usart\usart.c" />
+    <ClCompile Include="..\..\..\CORE\core_cm3.c" />
+    <ClCompile Include="..\..\..\CORE\startup_stm32f10x_hd.s" />
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\misc.c" />
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_fsmc.c" />
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_gpio.c" />
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_rcc.c" />
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_spi.c" />
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_usart.c" />
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_tim.c" />
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_sdio.c" />
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_dma.c" />
+    <ClCompile Include="..\..\..\MALLOC\malloc.c" />
+    <ClCompile Include="..\..\..\FATFS\src\diskio.c" />
+    <ClCompile Include="..\..\..\FATFS\src\ff.c" />
+    <ClCompile Include="..\..\..\FATFS\exfuns\exfuns.c" />
+    <ClCompile Include="..\..\..\FATFS\exfuns\fattester.c" />
+    <ClCompile Include="..\..\..\FATFS\exfuns\mycc936.c" />
+    <ClCompile Include="..\..\..\USMART\usmart.c" />
+    <ClCompile Include="..\..\..\USMART\usmart_config.c" />
+    <ClCompile Include="..\..\..\USMART\usmart_str.c" />
+    <ClCompile Include="..\..\..\TEXT\fontupd.c" />
+    <ClCompile Include="..\..\..\TEXT\text.c" />
+    <ClCompile Include="..\..\..\SIM800C\sim800c.c" />
+    <None Include="mcu.props" />
+    <None Include="..\..\..\README.TXT" />
+    <ClInclude Include="$(BSP_ROOT)\Device\Include\stm32f10x.h" />
+    <None Include="ATK_SIM800C_GSM-Debug.vgdbsettings" />
+    <None Include="ATK_SIM800C_GSM-Release.vgdbsettings" />
+    <None Include="MCU.xml" />
+  </ItemGroup>
+</Project>

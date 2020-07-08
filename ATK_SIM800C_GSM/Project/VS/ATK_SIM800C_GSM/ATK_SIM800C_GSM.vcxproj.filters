@@ -156,9 +156,6 @@
     <ClCompile Include="..\..\..\CORE\core_cm3.c">
       <Filter>Source files\CORE</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\CORE\startup_stm32f10x_hd.s">
-      <Filter>Source files\CORE</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\STM32F10x_FWLib\src\misc.c">
       <Filter>Source files\FWLib</Filter>
     </ClCompile>

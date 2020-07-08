@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_01_HorseRaceLamp", "Experiment_01_HorseRaceLamp\Project\VS\Experiment_01_HorseRaceLamp\Experiment_01_HorseRaceLamp.vcxproj", "{E56F67C0-7D35-434C-9565-F57B79CC961D}"
 EndProject
@@ -32,6 +32,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_25_RS485", "Experiment_25_RS485\Project\VS\Experiment_25_RS485\Experiment_25_RS485.vcxproj", "{901FF4A3-A493-4813-8841-92D6B9D982A0}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ATK_SIM800C_GSM", "ATK_SIM800C_GSM\Project\VS\ATK_SIM800C_GSM\ATK_SIM800C_GSM.vcxproj", "{1963232F-FF14-404C-982A-A7614DF6449B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_22_DMA_DirectMemoryAccess", "Experiment_22_DMA_DirectMemoryAccess\Project\VS\Experiment_22_DMA_DirectMemoryAccess\Experiment_22_DMA_DirectMemoryAccess.vcxproj", "{A3584677-3BB1-450A-962E-D5BE0A119DB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,10 @@ Global
 		{1963232F-FF14-404C-982A-A7614DF6449B}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
 		{1963232F-FF14-404C-982A-A7614DF6449B}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
 		{1963232F-FF14-404C-982A-A7614DF6449B}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{A3584677-3BB1-450A-962E-D5BE0A119DB0}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{A3584677-3BB1-450A-962E-D5BE0A119DB0}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{A3584677-3BB1-450A-962E-D5BE0A119DB0}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{A3584677-3BB1-450A-962E-D5BE0A119DB0}.Release|VisualGDB.Build.0 = Release|VisualGDB
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

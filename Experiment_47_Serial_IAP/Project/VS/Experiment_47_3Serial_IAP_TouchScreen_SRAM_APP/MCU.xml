@@ -27,7 +27,7 @@
     <AllDependencies>
       <ProjectDependency>
         <RelativePath>..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\USER\TOUCH.uvprojx</RelativePath>
-        <Timestamp>132230105948837436</Timestamp>
+        <Timestamp>132384446627293510</Timestamp>
       </ProjectDependency>
     </AllDependencies>
     <RootDirectory>
@@ -137,29 +137,30 @@
     </RootDirectory>
     <Configurations>
       <ImportedConfiguration>
+        <IsStaticLibrary>false</IsStaticLibrary>
         <Settings>
           <IncludeDirectories>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\LED</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\SYSTEM\delay</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\SYSTEM\sys</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\SYSTEM\usart</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\USER</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\STM32F10x_FWLib\inc</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\CORE</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\KEY</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\LCD</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\RTC</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\RTC</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\WKUP</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\ADC</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\DAC</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\DMA</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\IIC</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\24CXX</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\SPI</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\FLASH</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\TOUCH</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\W25QXX</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\LED</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\SYSTEM\delay</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\SYSTEM\sys</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\SYSTEM\usart</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\USER</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\STM32F10x_FWLib\inc</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\CORE</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\KEY</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\LCD</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\RTC</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\RTC</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\WKUP</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\ADC</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\DAC</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\DMA</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\IIC</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\24CXX</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\SPI</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\FLASH</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\TOUCH</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\HARDWARE\W25QXX</string>
           </IncludeDirectories>
           <PreprocessorMacros>
             <string>$$com.sysprogs.bspoptions.primary_memory$$_layout</string>

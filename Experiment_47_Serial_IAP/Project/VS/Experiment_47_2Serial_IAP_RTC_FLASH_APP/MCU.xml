@@ -27,7 +27,7 @@
     <AllDependencies>
       <ProjectDependency>
         <RelativePath>..\..\..\Experiment_47_2Serial_IAP_RTC_FLASH_APP\USER\RTC.uvprojx</RelativePath>
-        <Timestamp>132230105945765736</Timestamp>
+        <Timestamp>132384446626804746</Timestamp>
       </ProjectDependency>
     </AllDependencies>
     <RootDirectory>
@@ -136,20 +136,21 @@
     </RootDirectory>
     <Configurations>
       <ImportedConfiguration>
+        <IsStaticLibrary>false</IsStaticLibrary>
         <Settings>
           <IncludeDirectories>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\HARDWARE\LED</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\SYSTEM\delay</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\SYSTEM\sys</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\SYSTEM\usart</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\USER</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\STM32F10x_FWLib\inc</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\CORE</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\HARDWARE\KEY</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\HARDWARE\LCD</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\HARDWARE\RTC</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\HARDWARE\RTC</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\USMART</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\HARDWARE\LED</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\SYSTEM\delay</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\SYSTEM\sys</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\SYSTEM\usart</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\USER</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\STM32F10x_FWLib\inc</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\CORE</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\HARDWARE\KEY</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\HARDWARE\LCD</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\HARDWARE\RTC</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\HARDWARE\RTC</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_47_Serial_IAP\Experiment_47_2Serial_IAP_RTC_FLASH_APP\USMART</string>
           </IncludeDirectories>
           <PreprocessorMacros>
             <string>$$com.sysprogs.bspoptions.primary_memory$$_layout</string>

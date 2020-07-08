@@ -27,7 +27,7 @@
     <AllDependencies>
       <ProjectDependency>
         <RelativePath>..\..\..\USER\GSM.uvprojx</RelativePath>
-        <Timestamp>131094178408669034</Timestamp>
+        <Timestamp>132384446601681892</Timestamp>
       </ProjectDependency>
     </AllDependencies>
     <RootDirectory>
@@ -115,9 +115,6 @@
           <Files>
             <VirtualFileSnapshot>
               <RelativePath>..\..\..\CORE\core_cm3.c</RelativePath>
-            </VirtualFileSnapshot>
-            <VirtualFileSnapshot>
-              <RelativePath>..\..\..\CORE\startup_stm32f10x_hd.s</RelativePath>
             </VirtualFileSnapshot>
           </Files>
         </VirtualDirectorySnapshot>
@@ -227,50 +224,52 @@
     </RootDirectory>
     <Configurations>
       <ImportedConfiguration>
+        <IsStaticLibrary>false</IsStaticLibrary>
         <Settings>
           <IncludeDirectories>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\LED</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\SYSTEM\delay</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\SYSTEM\sys</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\SYSTEM\usart</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\USER</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\STM32F10x_FWLib\inc</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\CORE</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\KEY</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\LCD</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\RTC</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\RTC</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\WKUP</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\ADC</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\DAC</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\DMA</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\IIC</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\24CXX</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\SPI</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\FLASH</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\TOUCH</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\REMOTE</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\ADXL345</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\DS18B20</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\NRF24L01</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\SRAM</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\MALLOC</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\SD</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\FATFS\exfuns</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\FATFS\src</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\USMART</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\FATFS\src\option</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\SDIO</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\TEXT</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\W25QXX</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\24CXX</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\IIC</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\TOUCH</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\USART3</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\TIMER</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\ATK_SIM800C_GSM\SIM800C</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\LED</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\SYSTEM\delay</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\SYSTEM\sys</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\SYSTEM\usart</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\USER</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\STM32F10x_FWLib\inc</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\CORE</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\KEY</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\LCD</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\RTC</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\RTC</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\WKUP</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\ADC</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\DAC</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\DMA</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\IIC</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\24CXX</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\SPI</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\FLASH</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\TOUCH</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\REMOTE</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\ADXL345</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\DS18B20</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\NRF24L01</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\SRAM</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\MALLOC</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\SD</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\FATFS\exfuns</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\FATFS\src</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\USMART</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\FATFS\src\option</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\SDIO</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\TEXT</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\W25QXX</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\24CXX</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\IIC</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\TOUCH</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\USART3</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\HARDWARE\TIMER</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\ATK_SIM800C_GSM\SIM800C</string>
           </IncludeDirectories>
           <PreprocessorMacros>
+            <string>$$com.sysprogs.bspoptions.primary_memory$$_layout</string>
             <string>STM32F10X_HD</string>
             <string>USE_STDPERIPH_DRIVER</string>
           </PreprocessorMacros>

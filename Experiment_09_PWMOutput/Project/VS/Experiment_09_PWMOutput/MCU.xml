@@ -27,7 +27,7 @@
     <AllDependencies>
       <ProjectDependency>
         <RelativePath>..\..\..\USER\PWM.uvprojx</RelativePath>
-        <Timestamp>132230105821727777</Timestamp>
+        <Timestamp>132384446605521625</Timestamp>
       </ProjectDependency>
     </AllDependencies>
     <RootDirectory>
@@ -115,17 +115,18 @@
     </RootDirectory>
     <Configurations>
       <ImportedConfiguration>
+        <IsStaticLibrary>false</IsStaticLibrary>
         <Settings>
           <IncludeDirectories>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_09_PWMOutput\HARDWARE\LED</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_09_PWMOutput\SYSTEM\delay</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_09_PWMOutput\SYSTEM\sys</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_09_PWMOutput\SYSTEM\usart</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_09_PWMOutput\USER</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_09_PWMOutput\STM32F10x_FWLib\inc</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_09_PWMOutput\CORE</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_09_PWMOutput\HARDWARE\KEY</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_09_PWMOutput\HARDWARE\TIMER</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_09_PWMOutput\HARDWARE\LED</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_09_PWMOutput\SYSTEM\delay</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_09_PWMOutput\SYSTEM\sys</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_09_PWMOutput\SYSTEM\usart</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_09_PWMOutput\USER</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_09_PWMOutput\STM32F10x_FWLib\inc</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_09_PWMOutput\CORE</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_09_PWMOutput\HARDWARE\KEY</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_09_PWMOutput\HARDWARE\TIMER</string>
           </IncludeDirectories>
           <PreprocessorMacros>
             <string>$$com.sysprogs.bspoptions.primary_memory$$_layout</string>

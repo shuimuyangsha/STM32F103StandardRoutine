@@ -75,6 +75,7 @@
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\CORE\startup_stm32f10x_hd.s" />
     <ClCompile Include="..\..\..\USER\main.c" />
     <ClCompile Include="..\..\..\USER\stm32f10x_it.c" />
     <ClCompile Include="..\..\..\USER\system_stm32f10x.c" />
@@ -86,7 +87,6 @@
     <ClCompile Include="..\..\..\SYSTEM\sys\sys.c" />
     <ClCompile Include="..\..\..\SYSTEM\usart\usart.c" />
     <ClCompile Include="..\..\..\CORE\core_cm3.c" />
-    <ClCompile Include="..\..\..\CORE\startup_stm32f10x_hd.s" />
     <ClCompile Include="..\..\..\STM32F10x_FWLib\src\misc.c" />
     <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_fsmc.c" />
     <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_gpio.c" />

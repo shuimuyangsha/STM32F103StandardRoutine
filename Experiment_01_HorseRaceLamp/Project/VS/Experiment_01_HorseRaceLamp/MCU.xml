@@ -27,7 +27,7 @@
     <AllDependencies>
       <ProjectDependency>
         <RelativePath>..\..\..\USER\LED.uvprojx</RelativePath>
-        <Timestamp>132284847813364826</Timestamp>
+        <Timestamp>132384446602210470</Timestamp>
       </ProjectDependency>
     </AllDependencies>
     <RootDirectory>
@@ -112,16 +112,17 @@
     </RootDirectory>
     <Configurations>
       <ImportedConfiguration>
+        <IsStaticLibrary>false</IsStaticLibrary>
         <Settings>
           <IncludeDirectories>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\USER</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\CORE</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\STM32F10x_FWLib\inc</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\SYSTEM\delay</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\SYSTEM\sys</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\SYSTEM\usart</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\HARDWARE\LED</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\HARDWARE\EXTREME3D</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\USER</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\CORE</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\STM32F10x_FWLib\inc</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\SYSTEM\delay</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\SYSTEM\sys</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\SYSTEM\usart</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\HARDWARE\LED</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\HARDWARE\EXTREME3D</string>
           </IncludeDirectories>
           <PreprocessorMacros>
             <string>$$com.sysprogs.bspoptions.primary_memory$$_layout</string>

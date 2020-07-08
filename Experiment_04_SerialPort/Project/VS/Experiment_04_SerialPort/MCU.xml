@@ -27,7 +27,7 @@
     <AllDependencies>
       <ProjectDependency>
         <RelativePath>..\..\..\USER\USART.uvprojx</RelativePath>
-        <Timestamp>132277023986554144</Timestamp>
+        <Timestamp>132384446603427222</Timestamp>
       </ProjectDependency>
     </AllDependencies>
     <RootDirectory>
@@ -109,16 +109,17 @@
     </RootDirectory>
     <Configurations>
       <ImportedConfiguration>
+        <IsStaticLibrary>false</IsStaticLibrary>
         <Settings>
           <IncludeDirectories>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_04_SerialPort\HARDWARE\LED</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_04_SerialPort\SYSTEM\delay</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_04_SerialPort\SYSTEM\sys</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_04_SerialPort\SYSTEM\usart</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_04_SerialPort\USER</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_04_SerialPort\STM32F10x_FWLib\inc</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_04_SerialPort\CORE</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_04_SerialPort\HARDWARE\KEY</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_04_SerialPort\HARDWARE\LED</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_04_SerialPort\SYSTEM\delay</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_04_SerialPort\SYSTEM\sys</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_04_SerialPort\SYSTEM\usart</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_04_SerialPort\USER</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_04_SerialPort\STM32F10x_FWLib\inc</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_04_SerialPort\CORE</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_04_SerialPort\HARDWARE\KEY</string>
           </IncludeDirectories>
           <PreprocessorMacros>
             <string>$$com.sysprogs.bspoptions.primary_memory$$_layout</string>

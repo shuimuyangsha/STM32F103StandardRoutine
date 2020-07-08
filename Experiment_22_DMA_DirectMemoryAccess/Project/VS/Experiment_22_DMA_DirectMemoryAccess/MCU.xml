@@ -23,11 +23,11 @@
   </TestFrameworkProperties>
   <ImportedProject>
     <ImporterID>com.sysprogs.project_importers.keil</ImporterID>
-    <RelativeProjectPath>..\..\..\USER\TIMER.uvprojx</RelativeProjectPath>
+    <RelativeProjectPath>..\..\..\USER\DMA.uvprojx</RelativeProjectPath>
     <AllDependencies>
       <ProjectDependency>
-        <RelativePath>..\..\..\USER\TIMER.uvprojx</RelativePath>
-        <Timestamp>132384446605062850</Timestamp>
+        <RelativePath>..\..\..\USER\DMA.uvprojx</RelativePath>
+        <Timestamp>132384446610917202</Timestamp>
       </ProjectDependency>
     </AllDependencies>
     <RootDirectory>
@@ -56,7 +56,10 @@
               <RelativePath>..\..\..\HARDWARE\KEY\key.c</RelativePath>
             </VirtualFileSnapshot>
             <VirtualFileSnapshot>
-              <RelativePath>..\..\..\HARDWARE\TIMER\timer.c</RelativePath>
+              <RelativePath>..\..\..\HARDWARE\LCD\lcd.c</RelativePath>
+            </VirtualFileSnapshot>
+            <VirtualFileSnapshot>
+              <RelativePath>..\..\..\HARDWARE\DMA\dma.c</RelativePath>
             </VirtualFileSnapshot>
           </Files>
         </VirtualDirectorySnapshot>
@@ -80,6 +83,9 @@
             <VirtualFileSnapshot>
               <RelativePath>..\..\..\CORE\core_cm3.c</RelativePath>
             </VirtualFileSnapshot>
+            <VirtualFileSnapshot>
+              <RelativePath>..\..\..\CORE\startup_stm32f10x_hd.s</RelativePath>
+            </VirtualFileSnapshot>
           </Files>
         </VirtualDirectorySnapshot>
         <VirtualDirectorySnapshot>
@@ -89,16 +95,19 @@
               <RelativePath>..\..\..\STM32F10x_FWLib\src\misc.c</RelativePath>
             </VirtualFileSnapshot>
             <VirtualFileSnapshot>
+              <RelativePath>..\..\..\STM32F10x_FWLib\src\stm32f10x_dma.c</RelativePath>
+            </VirtualFileSnapshot>
+            <VirtualFileSnapshot>
+              <RelativePath>..\..\..\STM32F10x_FWLib\src\stm32f10x_fsmc.c</RelativePath>
+            </VirtualFileSnapshot>
+            <VirtualFileSnapshot>
               <RelativePath>..\..\..\STM32F10x_FWLib\src\stm32f10x_gpio.c</RelativePath>
             </VirtualFileSnapshot>
             <VirtualFileSnapshot>
-              <RelativePath>..\..\..\STM32F10x_FWLib\src\stm32f10x_rcc.c</RelativePath>
-            </VirtualFileSnapshot>
-            <VirtualFileSnapshot>
-              <RelativePath>..\..\..\STM32F10x_FWLib\src\stm32f10x_tim.c</RelativePath>
-            </VirtualFileSnapshot>
-            <VirtualFileSnapshot>
               <RelativePath>..\..\..\STM32F10x_FWLib\src\stm32f10x_usart.c</RelativePath>
+            </VirtualFileSnapshot>
+            <VirtualFileSnapshot>
+              <RelativePath>..\..\..\STM32F10x_FWLib\src\stm32f10x_rcc.c</RelativePath>
             </VirtualFileSnapshot>
           </Files>
         </VirtualDirectorySnapshot>
@@ -118,18 +127,23 @@
         <IsStaticLibrary>false</IsStaticLibrary>
         <Settings>
           <IncludeDirectories>
-            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\HARDWARE\LED</string>
-            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\SYSTEM\delay</string>
-            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\SYSTEM\sys</string>
-            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\SYSTEM\usart</string>
-            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\USER</string>
-            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\STM32F10x_FWLib\inc</string>
-            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\CORE</string>
-            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\HARDWARE\KEY</string>
-            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_08_TimerInterrupts\HARDWARE\TIMER</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_22_DMA_DirectMemoryAccess\HARDWARE\LED</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_22_DMA_DirectMemoryAccess\SYSTEM\delay</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_22_DMA_DirectMemoryAccess\SYSTEM\sys</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_22_DMA_DirectMemoryAccess\SYSTEM\usart</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_22_DMA_DirectMemoryAccess\USER</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_22_DMA_DirectMemoryAccess\STM32F10x_FWLib\inc</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_22_DMA_DirectMemoryAccess\CORE</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_22_DMA_DirectMemoryAccess\HARDWARE\KEY</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_22_DMA_DirectMemoryAccess\HARDWARE\LCD</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_22_DMA_DirectMemoryAccess\HARDWARE\RTC</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_22_DMA_DirectMemoryAccess\HARDWARE\RTC</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_22_DMA_DirectMemoryAccess\HARDWARE\WKUP</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_22_DMA_DirectMemoryAccess\HARDWARE\ADC</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_22_DMA_DirectMemoryAccess\HARDWARE\DAC</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_22_DMA_DirectMemoryAccess\HARDWARE\DMA</string>
           </IncludeDirectories>
           <PreprocessorMacros>
-            <string>$$com.sysprogs.bspoptions.primary_memory$$_layout</string>
             <string>STM32F10X_HD</string>
             <string>USE_STDPERIPH_DRIVER</string>
           </PreprocessorMacros>

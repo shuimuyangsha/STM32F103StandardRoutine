@@ -19,12 +19,8 @@
         <Revision>0</Revision>
       </Version>
     </ToolchainID>
-    <ProjectFile>Experiment_01_HorseRaceLamp.vcxproj</ProjectFile>
-    <RemoteBuildEnvironment>
-      <Records />
-      <EnvironmentSetupFiles />
-    </RemoteBuildEnvironment>
-    <ParallelJobCount>1</ParallelJobCount>
+    <ProjectFile>Experiment_22_DMA_DirectMemoryAccess.vcxproj</ProjectFile>
+    <ParallelJobCount>0</ParallelJobCount>
     <SuppressDirectoryChangeMessages>true</SuppressDirectoryChangeMessages>
   </Build>
   <CustomBuild>
@@ -45,7 +41,6 @@
     <ShowMessageAfterExecuting>true</ShowMessageAfterExecuting>
   </CustomShortcuts>
   <UserDefinedVariables />
-  <ImportedPropertySheets />
   <CodeSense>
     <Enabled>Unknown</Enabled>
     <ExtraSettings>
@@ -59,8 +54,6 @@
     </CodeAnalyzerSettings>
   </CodeSense>
   <BuildContextDirectory>VisualGDB\VisualGDBCache</BuildContextDirectory>
-  <Configurations />
-  <ProgramArgumentsSuggestions />
   <Debug xsi:type="com.visualgdb.debug.embedded">
     <AdditionalStartupCommands />
     <AdditionalGDBSettings>
@@ -97,7 +90,7 @@
     <DebugMethod>
       <ID>jlink-jtag</ID>
       <Configuration xsi:type="com.visualgdb.edp.segger.settings">
-        <CommandLine>-select USB -device STM32F103ZE -speed auto -if SWD</CommandLine>
+        <CommandLine>-select USB -device $$SYS:MCU_ID$$ -speed auto -if SWD</CommandLine>
         <ProgramMode>Enabled</ProgramMode>
         <StartupCommands>
           <string>target remote :$$SYS:GDB_PORT$$</string>

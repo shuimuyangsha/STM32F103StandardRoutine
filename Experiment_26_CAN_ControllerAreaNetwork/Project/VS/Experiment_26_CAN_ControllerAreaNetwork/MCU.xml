@@ -27,7 +27,7 @@
     <AllDependencies>
       <ProjectDependency>
         <RelativePath>..\..\..\USER\CAN.uvprojx</RelativePath>
-        <Timestamp>132230105873805091</Timestamp>
+        <Timestamp>132384446612772353</Timestamp>
       </ProjectDependency>
     </AllDependencies>
     <RootDirectory>
@@ -83,9 +83,6 @@
             <VirtualFileSnapshot>
               <RelativePath>..\..\..\CORE\core_cm3.c</RelativePath>
             </VirtualFileSnapshot>
-            <VirtualFileSnapshot>
-              <RelativePath>..\..\..\CORE\startup_stm32f10x_hd.s</RelativePath>
-            </VirtualFileSnapshot>
           </Files>
         </VirtualDirectorySnapshot>
         <VirtualDirectorySnapshot>
@@ -124,32 +121,34 @@
     </RootDirectory>
     <Configurations>
       <ImportedConfiguration>
+        <IsStaticLibrary>false</IsStaticLibrary>
         <Settings>
           <IncludeDirectories>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\LED</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\SYSTEM\delay</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\SYSTEM\sys</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\SYSTEM\usart</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\USER</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\STM32F10x_FWLib\inc</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\CORE</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\KEY</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\LCD</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\RTC</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\RTC</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\WKUP</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\ADC</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\DAC</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\DMA</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\IIC</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\24CXX</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\SPI</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\FLASH</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\TOUCH</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\RS485</string>
-            <string>E:\VS_GDB\ARM\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\CAN</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\LED</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\SYSTEM\delay</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\SYSTEM\sys</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\SYSTEM\usart</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\USER</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\STM32F10x_FWLib\inc</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\CORE</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\KEY</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\LCD</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\RTC</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\RTC</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\WKUP</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\ADC</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\DAC</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\DMA</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\IIC</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\24CXX</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\SPI</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\FLASH</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\TOUCH</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\RS485</string>
+            <string>E:\Code\EmbeddedCode\STM32F103StandardRoutine\Experiment_26_CAN_ControllerAreaNetwork\HARDWARE\CAN</string>
           </IncludeDirectories>
           <PreprocessorMacros>
+            <string>$$com.sysprogs.bspoptions.primary_memory$$_layout</string>
             <string>STM32F10X_HD</string>
             <string>USE_STDPERIPH_DRIVER</string>
           </PreprocessorMacros>

@@ -76,6 +76,7 @@
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\CORE\startup_stm32f10x_hd.s" />
     <ClCompile Include="..\..\..\HARDWARE\EXTREME3D\extreme3d.c" />
     <ClCompile Include="..\..\..\USER\main.c" />
     <ClCompile Include="..\..\..\USER\stm32f10x_it.c" />

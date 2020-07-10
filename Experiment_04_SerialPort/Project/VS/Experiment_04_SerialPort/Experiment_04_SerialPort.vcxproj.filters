@@ -120,5 +120,8 @@
     <ClInclude Include="RTE/RTE_Components.h">
       <Filter>Header files</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\..\CORE\startup_stm32f10x_hd.s">
+      <Filter>Source files\CORE</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -123,6 +123,9 @@
     <None Include="MCU.xml">
       <Filter>VisualGDB settings</Filter>
     </None>
+    <ClCompile Include="..\..\..\CORE\startup_stm32f10x_hd.s">
+      <Filter>Source files\CORE</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\..\..\..\..\嵌入式学习\资料\正点原子战舰STM32F103ZET6\战舰V3 视频盘(B盘)\第33讲 PWM输出实验\第33讲 PWM输出实验.rmvb">

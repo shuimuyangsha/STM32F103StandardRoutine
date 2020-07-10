@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ATK_SIM800C_GSM", "ATK_SIM8
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_22_DMA_DirectMemoryAccess", "Experiment_22_DMA_DirectMemoryAccess\Project\VS\Experiment_22_DMA_DirectMemoryAccess\Experiment_22_DMA_DirectMemoryAccess.vcxproj", "{A3584677-3BB1-450A-962E-D5BE0A119DB0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_39_FATFS", "Experiment_39_FATFS\Project\VS\Experiment_39_FATFS\Experiment_39_FATFS.vcxproj", "{CEFCB133-B312-44C8-9E26-D3CC5C53648E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|VisualGDB = Debug|VisualGDB
@@ -89,6 +91,10 @@ Global
 		{A3584677-3BB1-450A-962E-D5BE0A119DB0}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
 		{A3584677-3BB1-450A-962E-D5BE0A119DB0}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
 		{A3584677-3BB1-450A-962E-D5BE0A119DB0}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{CEFCB133-B312-44C8-9E26-D3CC5C53648E}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{CEFCB133-B312-44C8-9E26-D3CC5C53648E}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{CEFCB133-B312-44C8-9E26-D3CC5C53648E}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{CEFCB133-B312-44C8-9E26-D3CC5C53648E}.Release|VisualGDB.Build.0 = Release|VisualGDB
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

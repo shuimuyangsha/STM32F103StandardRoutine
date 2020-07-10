@@ -138,6 +138,9 @@
     <None Include="MCU.xml">
       <Filter>VisualGDB settings</Filter>
     </None>
+    <ClCompile Include="..\..\..\Experiment_47_1Serial_IAP_BootloaderV1_0\CORE\startup_stm32f10x_hd.s">
+      <Filter>Source files\CORE</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\..\..\..\..\嵌入式学习\资料\正点原子战舰STM32F103ZET6\战舰V3 视频盘(D盘)\第86讲 IAP在应用编程原理\第86讲 IAP在应用编程原理.rmvb">

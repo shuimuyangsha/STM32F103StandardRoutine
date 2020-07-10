@@ -237,6 +237,9 @@
     <None Include="MCU.xml">
       <Filter>VisualGDB settings</Filter>
     </None>
+    <ClCompile Include="..\..\..\CORE\startup_stm32f10x_hd.s">
+      <Filter>Source files\CORE</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\..\..\..\嵌入式学习\资料\探索者F4\探索者F4 资料盘(A盘)\9，增值资料\1，ALIENTEK 产品资料\17，ATK-SIM800C GSM GPRS模块\ATK-SIM800C GSM(GPRS)模块用户手册_V1.pdf">

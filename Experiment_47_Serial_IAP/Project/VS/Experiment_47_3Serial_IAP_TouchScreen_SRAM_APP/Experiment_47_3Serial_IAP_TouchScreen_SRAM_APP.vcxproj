@@ -75,6 +75,7 @@
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\CORE\startup_stm32f10x_hd.s" />
     <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\USER\main.c" />
     <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\USER\stm32f10x_it.c" />
     <ClCompile Include="..\..\..\Experiment_47_3Serial_IAP_TouchScreen_SRAM_APP\USER\system_stm32f10x.c" />

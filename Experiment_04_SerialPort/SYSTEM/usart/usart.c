@@ -127,38 +127,182 @@ void uart_init(u32 bound){
 
 }
 
-void USART1_IRQHandler(void)                	//串口1中断服务程序
-	{
-	u8 Res;
+//void USART1_IRQHandler(void)                	//串口1中断服务程序
+//{
+//	u8 Res;
+//#if SYSTEM_SUPPORT_OS 		//如果SYSTEM_SUPPORT_OS为真，则需要支持OS.
+//	OSIntEnter();    
+//#endif
+//	if(USART_GetITStatus(USART1, USART_IT_RXNE) != RESET)  //接收中断(接收到的数据必须是0x0d 0x0a结尾)
+//	{
+//		Res =USART_ReceiveData(USART1);	//读取接收到的数据
+//		
+//		if((USART_RX_STA&0x8000)==0)//接收未完成
+//		{
+//			if(USART_RX_STA&0x4000)//接收到了0x0d
+//			{
+//				if(Res!=0x0a)USART_RX_STA=0;//接收错误,重新开始
+//				else USART_RX_STA|=0x8000;	//接收完成了 
+//			}
+//			else //还没收到0X0D
+//			{	
+//				if(Res==0x0d)USART_RX_STA|=0x4000;
+//				else
+//				{
+//					USART_RX_BUF[USART_RX_STA&0X3FFF]=Res ;
+//					USART_RX_STA++;
+//					if(USART_RX_STA>(USART_REC_LEN-1))USART_RX_STA=0;//接收数据错误,重新开始接收	  
+//				}		 
+//			}
+//		}   		 
+//     } 
+//#if SYSTEM_SUPPORT_OS 	//如果SYSTEM_SUPPORT_OS为真，则需要支持OS.
+//	OSIntExit();  											 
+//#endif
+//} 
+//#endif	
+
+#define USART1_DATA_LENGTH           10
+char Usart1_New_Data_sing = 0;
+uint16_t Usart1_Recv_Status = 0;                                             //串口接收数据标志
+
+char usart1_recn_buf[10] = { 0 };                                              //临时存储接收到的数据
+
+int Is_get_pairing_info = 0;
+char string1[50];
+
+int Is_get_openIrLed = 0;
+char string2[50];
+
+int charging_pileID = 0;
+int electrode_contact_state = 0;
+char string3[50];
+
+
+/************************************************************************
+函数名称: void UART4_IRQHandler(void)
+函数功能: 串口中断服务函数 (自动充电)
+输入参数:
+返 回 值:
+************************************************************************/
+void USART1_IRQHandler(void)
+{
+	unsigned char res;
+	unsigned char i, sum;
+	////	int kLengthPosition = 2;
+	////	static unsigned char _data_length = 7;	//The shortest length //55 FF 07(length) 01(version) 09(sum) FF FE
+
 #if SYSTEM_SUPPORT_OS 		//如果SYSTEM_SUPPORT_OS为真，则需要支持OS.
-	OSIntEnter();    
+	OSIntEnter();
 #endif
-	if(USART_GetITStatus(USART1, USART_IT_RXNE) != RESET)  //接收中断(接收到的数据必须是0x0d 0x0a结尾)
+	if (USART_GetITStatus(USART1, USART_IT_RXNE) != RESET)
+	{
+		res = USART_ReceiveData(USART1);
+		if ((Usart1_Recv_Status == 0 && res != 0x55) || (Usart1_Recv_Status == 1 && res != 0xFF)
+			|| (Usart1_Recv_Status == USART1_DATA_LENGTH - 2 && res != 0xFF)
+			|| (Usart1_Recv_Status == USART1_DATA_LENGTH - 1 && res != 0xFE))
 		{
-		Res =USART_ReceiveData(USART1);	//读取接收到的数据
-		
-		if((USART_RX_STA&0x8000)==0)//接收未完成
+			Usart1_Recv_Status = 0;
+			if (res == 0x55)
 			{
-			if(USART_RX_STA&0x4000)//接收到了0x0d
+				usart1_recn_buf[Usart1_Recv_Status] = res;
+				++Usart1_Recv_Status;
+			}
+			goto end;
+		}
+		if (Usart1_Recv_Status == USART1_DATA_LENGTH - 3)
+		{
+			sum = 0;
+			for (i = 2; i < USART1_DATA_LENGTH - 3; ++i)
+			{
+				sum += usart1_recn_buf[i];
+			}
+			if (res != sum)
+			{
+				Usart1_Recv_Status = 0;
+				if (res == 0x55)
 				{
-				if(Res!=0x0a)USART_RX_STA=0;//接收错误,重新开始
-				else USART_RX_STA|=0x8000;	//接收完成了 
+					usart1_recn_buf[Usart1_Recv_Status] = res;
+					++Usart1_Recv_Status;
 				}
-			else //还没收到0X0D
-				{	
-				if(Res==0x0d)USART_RX_STA|=0x4000;
-				else
+				goto end;
+			}
+		}
+		if ((Usart1_Recv_Status & UART1_RECV_FRAME_DONE_FLAG) == 0)
+		{
+			if (Usart1_Recv_Status < USART1_DATA_LENGTH)
+			{
+				usart1_recn_buf[Usart1_Recv_Status] = res;
+				++Usart1_Recv_Status;
+				if (Usart1_Recv_Status == USART1_DATA_LENGTH)
+				{
+					Usart1_Recv_Status |= UART1_RECV_FRAME_DONE_FLAG; // indicate one frame receive
+					Usart1_New_Data_sing = 1;       //标记接收完成
+					Usart1_Recv_Status = 0;
+
+					switch (usart1_recn_buf[2])
 					{
-					USART_RX_BUF[USART_RX_STA&0X3FFF]=Res ;
-					USART_RX_STA++;
-					if(USART_RX_STA>(USART_REC_LEN-1))USART_RX_STA=0;//接收数据错误,重新开始接收	  
-					}		 
+					case 0x01:
+						Is_get_pairing_info = usart1_recn_buf[4];
+						if (Is_get_pairing_info == 0x01) {
+							memset(string1, 0, sizeof(string1));
+							strcpy(string1, "Received pairing request！"); /*给数组赋字符串*/
+
+						}
+						break;
+					case 0x02:
+						Is_get_openIrLed = usart1_recn_buf[4];
+
+						if (Is_get_openIrLed == 0x03) {
+							memset(string2, 0, sizeof(string2));
+							strcpy(string2, "Light on command received..."); /*给数组赋字符串*/
+
+						}
+						else if(Is_get_openIrLed == 0x04) {
+							memset(string2, 0, sizeof(string2));
+							strcpy(string2, "Light off command received..."); /*给数组赋字符串*/
+						}
+						break;
+					case 0x03:
+						charging_pileID = usart1_recn_buf[3];
+						electrode_contact_state = usart1_recn_buf[4];
+
+						if (electrode_contact_state == 0x04) {
+							memset(string3, 0, sizeof(string3));
+							strcpy(string3, "Approaching the charging pile..."); /*给数组赋字符串*/
+							
+						}
+						else if(electrode_contact_state == 0x02) {
+							memset(string3, 0, sizeof(string3));
+							strcpy(string3, "In charge..."); /*给数组赋字符串*/
+						}
+						break;
+					case 0x04:
+
+						break;
+					case 0xF2:
+						break;
+					default:
+						break;
+
+					}
 				}
-			}   		 
-     } 
+			}
+			else // receive more bytes than the frame length, but the flag bit is not set, there must be something bad.
+			{
+				Usart1_Recv_Status = 0;
+				if (res == 0x55)
+				{
+					usart1_recn_buf[Usart1_Recv_Status] = res;
+					++Usart1_Recv_Status;
+				}
+			}
+		}
+	}
+end:;
 #if SYSTEM_SUPPORT_OS 	//如果SYSTEM_SUPPORT_OS为真，则需要支持OS.
-	OSIntExit();  											 
+	OSIntExit();
 #endif
-} 
-#endif	
+}
+#endif
 

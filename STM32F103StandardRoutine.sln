@@ -37,6 +37,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_22_DMA_DirectMem
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_39_FATFS", "Experiment_39_FATFS\Project\VS\Experiment_39_FATFS\Experiment_39_FATFS.vcxproj", "{CEFCB133-B312-44C8-9E26-D3CC5C53648E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_10_InputCapture", "Experiment_10_InputCapture\Project\VS\Experiment_10_InputCapture\Experiment_10_InputCapture.vcxproj", "{BD95B02F-CCE8-4723-B2E9-3E73B74E7306}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_11_TouchKey", "Experiment_11_TouchKey\Project\VS\Experiment_11_TouchKey\Experiment_11_TouchKey.vcxproj", "{A10966D7-58A1-4208-93F6-3C2C015F84CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|VisualGDB = Debug|VisualGDB
@@ -95,6 +99,14 @@ Global
 		{CEFCB133-B312-44C8-9E26-D3CC5C53648E}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
 		{CEFCB133-B312-44C8-9E26-D3CC5C53648E}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
 		{CEFCB133-B312-44C8-9E26-D3CC5C53648E}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{BD95B02F-CCE8-4723-B2E9-3E73B74E7306}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{BD95B02F-CCE8-4723-B2E9-3E73B74E7306}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{BD95B02F-CCE8-4723-B2E9-3E73B74E7306}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{BD95B02F-CCE8-4723-B2E9-3E73B74E7306}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{A10966D7-58A1-4208-93F6-3C2C015F84CD}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{A10966D7-58A1-4208-93F6-3C2C015F84CD}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{A10966D7-58A1-4208-93F6-3C2C015F84CD}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{A10966D7-58A1-4208-93F6-3C2C015F84CD}.Release|VisualGDB.Build.0 = Release|VisualGDB
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

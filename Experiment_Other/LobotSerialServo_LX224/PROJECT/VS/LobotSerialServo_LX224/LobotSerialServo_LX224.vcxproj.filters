@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{cebd2d57-89f0-41c7-950f-abea192791b2}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{ade00e94-2aed-4732-8fd7-2c45d34b2024}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{00914b37-100a-4d6d-82b1-3cedd1b10b82}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source files\USER">
+      <UniqueIdentifier>{56239141-1d09-4141-91e4-b6891dbde395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\SYSTEM">
+      <UniqueIdentifier>{b2482a03-2b21-4e1e-8a5a-cddd60e488ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\CORE">
+      <UniqueIdentifier>{bae94357-a91f-4dfe-875e-0e67a84452a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\FWLib">
+      <UniqueIdentifier>{7846f26b-b6ae-4ccc-983e-509366df10ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\LobotSerialServo">
+      <UniqueIdentifier>{7759bc34-a98c-42b9-bfff-d1dfea133bed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\::CMSIS">
+      <UniqueIdentifier>{099bcf19-2835-45df-aea1-3b349d2f3f1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Device-specific files">
+      <UniqueIdentifier>{92617060-36fb-478c-ace5-c40b0dcdef1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\USER">
+      <UniqueIdentifier>{8b14b24c-7a69-4248-831d-1a8c2aafa484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\SYSTEM">
+      <UniqueIdentifier>{25690fa8-358b-4ca2-9ff6-1ba6e4929933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\CORE">
+      <UniqueIdentifier>{e6ac057c-08e7-4bd7-ba3b-ee31ce7ebaed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\FWLib">
+      <UniqueIdentifier>{5457060f-64ea-4a4a-82f5-6d5d8486e477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\LobotSerialServo">
+      <UniqueIdentifier>{3b23ce7a-ee2f-43fd-867b-27c4dc43e969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\::CMSIS">
+      <UniqueIdentifier>{c394b05a-6ddf-4f2c-b804-8eb07dac22d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Device-specific files">
+      <UniqueIdentifier>{e2b3f241-3bf9-4e2b-b1d3-c843fe82502e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{cc8be7e2-3b80-4fdb-bc69-43a850d60393}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\USER\main.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\USER\stm32f10x_it.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\USER\system_stm32f10x.c">
+      <Filter>Source files\USER</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SYSTEM\delay\delay.c">
+      <Filter>Source files\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SYSTEM\uart\uart.c">
+      <Filter>Source files\SYSTEM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CORE\core_cm3.c">
+      <Filter>Source files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CORE\startup_stm32f10x_hd.s">
+      <Filter>Source files\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\misc.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_adc.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_bkp.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_can.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_cec.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_crc.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_dac.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_dbgmcu.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_dma.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_exti.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_flash.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_fsmc.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_gpio.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_i2c.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_iwdg.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_pwr.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_rcc.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_rtc.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_sdio.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_spi.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_tim.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_usart.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\STM32F10x_FWLib\src\stm32f10x_wwdg.c">
+      <Filter>Source files\FWLib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\LobotSerialServo\LobotSerialServo.c">
+      <Filter>Source files\LobotSerialServo</Filter>
+    </ClCompile>
+    <None Include="mcu.props">
+      <Filter>Source files\Device-specific files</Filter>
+    </None>
+    <ClInclude Include="..\..\..\LobotSerialServo\bool.h">
+      <Filter>Header files\LobotSerialServo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\LobotSerialServo\LobotSerialServo.h">
+      <Filter>Header files\LobotSerialServo</Filter>
+    </ClInclude>
+    <ClInclude Include="$(BSP_ROOT)\Device\Include\stm32f10x.h">
+      <Filter>Header files\Device-specific files</Filter>
+    </ClInclude>
+    <None Include="LobotSerialServo_LX224-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="LobotSerialServo_LX224-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="MCU.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\..\嵌入式学习\资料\功能模块资料\舵机\106.LX-224总线串行舵机\LX-224串口舵机说明书 .pdf">
+      <Filter>Resource files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\嵌入式学习\资料\功能模块资料\舵机\106.LX-224总线串行舵机\幻尔科技总线舵机通信协议.pdf">
+      <Filter>Resource files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\嵌入式学习\资料\功能模块资料\舵机\106.LX-224总线串行舵机\使用前说明.pdf">
+      <Filter>Resource files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\SYSTEM\uart\uart.h">
+      <Filter>Header files\SYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SYSTEM\delay\delay.h">
+      <Filter>Header files\SYSTEM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\USER\stm32f10x.h">
+      <Filter>Header files\USER</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\USER\stm32f10x_conf.h">
+      <Filter>Header files\USER</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\USER\stm32f10x_it.h">
+      <Filter>Header files\USER</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\USER\system_stm32f10x.h">
+      <Filter>Header files\USER</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

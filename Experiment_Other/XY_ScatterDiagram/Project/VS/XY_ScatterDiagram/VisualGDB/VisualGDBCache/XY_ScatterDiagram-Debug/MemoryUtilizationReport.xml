@@ -3,12 +3,12 @@
   <Memories>
     <MemoryUtilization>
       <MemoryName>IROM1</MemoryName>
-      <Used>7684</Used>
+      <Used>4108</Used>
       <Total>524288</Total>
     </MemoryUtilization>
     <MemoryUtilization>
       <MemoryName>IRAM1</MemoryName>
-      <Used>5880</Used>
+      <Used>2288</Used>
       <Total>65536</Total>
     </MemoryUtilization>
   </Memories>

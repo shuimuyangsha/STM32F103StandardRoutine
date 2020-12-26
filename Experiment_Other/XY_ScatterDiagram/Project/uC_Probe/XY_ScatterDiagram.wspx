@@ -5,14 +5,14 @@
       <symbolfile Filepath="..\..\..\..\..\VisualGDB\Debug\XY_ScatterDiagram.elf" ExternallyAdded="false" Core_Identifier="Core0" Device_Identifier="Device0" FileType="ELF_File" />
     </symbolfiles>
   </symbolbrowser>
-  <screens SelectedScreenId="DataScreen1">
-    <screen RegisteredName="DataScreen1" ScreenHeader="DataScreen1" ScreenType="DataScreen" />
+  <screens SelectedScreenId="DataScreen2">
+    <screen RegisteredName="DataScreen2" ScreenHeader="DataScreen1" ScreenType="DataScreen" />
   </screens>
   <nodes>
-    <node ScreenId="DataScreen1" NodeId="CustomDiagramNode1" OffsetX="960" OffsetY="190" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="600" Height="350" ZIndex="0" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="false" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode1" OffsetX="960" OffsetY="190" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="600" Height="350" ZIndex="0" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="false" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
       <innercontent>
         <content ControlType="CustomXYChart" Type="CustomXYGraph">
-          <definitions Width="600" Height="350" XAxisFrom="5" XAxisTo="100" XAxisStep="10" UseLogarithmicScaleForXAxis="false" XAxisTitle="aaa" ShowMinorTicksForXAxis="true" ShowMajorTicksForXAxis="true" ShowMinorGridlinesForXAxis="true" ShowMajorGridlinesForXAxis="true" ShowGridStripesForXAxis="true" YAxisFrom="5" YAxisTo="100" YAxisStep="10" UseLogarithmicScaleForYAxis="false" YAxisTitle="bbb" ShowMinorTicksForYAxis="true" ShowMajorTicksForYAxis="true" ShowMinorGridlinesForYAxis="true" ShowMajorGridlinesForYAxis="true" ShowGridStripesForYAxis="false" ChartTitle="X vs Y Chart" UseIndexTable="false" UseIndexOfXSymbol_ForYValue="false" UseIndexOfYSymbol_ForXValue="false" PlotMode="Burst" BufferSize="200" PlotModeType="Strip" EraseTrace="false" Color="#FF0000FF" ColorBrush="#FF0000FF" ShowTooltip="true" ShowArea="false" ShowPoints="true" ShowLine="false" />
+          <definitions Width="600" Height="350" XAxisFrom="0.1" XAxisTo="60" XAxisStep="10" UseLogarithmicScaleForXAxis="false" XAxisTitle="aaa" ShowMinorTicksForXAxis="true" ShowMajorTicksForXAxis="true" ShowMinorGridlinesForXAxis="true" ShowMajorGridlinesForXAxis="true" ShowGridStripesForXAxis="true" YAxisFrom="-10" YAxisTo="10" YAxisStep="10" UseLogarithmicScaleForYAxis="false" YAxisTitle="bbb" ShowMinorTicksForYAxis="true" ShowMajorTicksForYAxis="true" ShowMinorGridlinesForYAxis="true" ShowMajorGridlinesForYAxis="true" ShowGridStripesForYAxis="false" ChartTitle="X vs Y Chart" UseIndexTable="false" UseIndexOfXSymbol_ForYValue="false" UseIndexOfYSymbol_ForXValue="false" PlotMode="Burst" BufferSize="200" PlotModeType="Strip" EraseTrace="false" Color="#FF0000FF" ColorBrush="#FF0000FF" ShowTooltip="true" ShowArea="false" ShowPoints="true" ShowLine="false" />
           <symbolseries>
             <serie SymbolPathForXAxis="debugX" SymbolPathForYAxis="debugY" />
           </symbolseries>
@@ -23,13 +23,33 @@
         <symbol path="debugY" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
       </symbols>
     </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode2" OffsetX="960" OffsetY="110" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="300" Height="60" ZIndex="1" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="Numeric" Type="Numeric1">
+          <definitions NumericFontFamilyValue="Arial Black" NumericFontSizeValue="50" NumericForegroundValue="#FFFFFFFF" NumericTextAlignmentValue="Right" IsThousandSeparatorEnabled="true" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" LeadingZeroes="0" DecimalPlaces="1" Notation="Regular" Representation="Decimal" Width="300" Height="60" />
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="step" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode3" OffsetX="1450" OffsetY="110" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="300" Height="60" ZIndex="2" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="Numeric" Type="Numeric1">
+          <definitions NumericFontFamilyValue="Arial Black" NumericFontSizeValue="50" NumericForegroundValue="#FFFFFFFF" NumericTextAlignmentValue="Right" IsThousandSeparatorEnabled="true" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" LeadingZeroes="0" DecimalPlaces="1" Notation="Regular" Representation="Decimal" Width="300" Height="60" />
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="debugY" IsAnArrayElement="true" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
   </nodes>
   <screens_objects />
   <explorer>
     <content>
       <nodes>
-        <node IsEnable="true" Name="Project1" NodeType="Project" ScreenType="None" UniqueID="Project1">
-          <node IsEnable="true" Name="DataScreen1" NodeType="Screen" ScreenType="DataScreen" UniqueID="DataScreen1" />
+        <node IsEnable="true" Name="Project1" NodeType="Project" ScreenType="None" UniqueID="Project2">
+          <node IsEnable="true" Name="DataScreen1" NodeType="Screen" ScreenType="DataScreen" UniqueID="DataScreen2" />
         </node>
       </nodes>
     </content>
@@ -43,11 +63,11 @@
           <ZorderInFloatMode>0</ZorderInFloatMode>
           <TabOrderIndex>-1</TabOrderIndex>
           <PreviousContainerDesiredSize>
-            <Width>0</Width>
+            <Width>1204</Width>
             <Height>0</Height>
           </PreviousContainerDesiredSize>
-          <PreviousDesiredWidthInDockedMode>90</PreviousDesiredWidthInDockedMode>
-          <PreviousDesiredHeightInDockedMode>244.66666666666669</PreviousDesiredHeightInDockedMode>
+          <PreviousDesiredWidthInDockedMode>1204</PreviousDesiredWidthInDockedMode>
+          <PreviousDesiredHeightInDockedMode>356</PreviousDesiredHeightInDockedMode>
           <Name>usrSymbolBrowser</Name>
           <ShowTopmostMenuItem>false</ShowTopmostMenuItem>
           <TopMost>false</TopMost>
@@ -57,25 +77,25 @@
           <SideFloating>Left</SideFloating>
           <TargetDocked />
           <TargetFloating />
-          <DesiredWidthInDockedMode>1002</DesiredWidthInDockedMode>
-          <DesiredHeightInDockedMode>244.66666666666666</DesiredHeightInDockedMode>
+          <DesiredWidthInDockedMode>1204</DesiredWidthInDockedMode>
+          <DesiredHeightInDockedMode>356</DesiredHeightInDockedMode>
           <DesiredWidthInFloatingMode>90</DesiredWidthInFloatingMode>
           <DesiredHeightInFloatingMode>360</DesiredHeightInFloatingMode>
           <NoDock>false</NoDock>
           <CanDock>true</CanDock>
           <CanClose>false</CanClose>
           <IsSelectedTab>false</IsSelectedTab>
-          <IsActiveWindow>false</IsActiveWindow>
+          <IsActiveWindow>true</IsActiveWindow>
           <CanSerialize>true</CanSerialize>
           <WindowRect />
-          <TabGroupName>61843883</TabGroupName>
+          <TabGroupName>26874512</TabGroupName>
           <IsTabGroupOwner>false</IsTabGroupOwner>
           <SideTabOrder>0</SideTabOrder>
           <IndexInDockMode>3</IndexInDockMode>
           <IndexInFloatMode>3</IndexInFloatMode>
           <TabOrderInDockMode>0</TabOrderInDockMode>
           <TabOrderInFloatMode>0</TabOrderInFloatMode>
-          <MDIBounds>0,0,100,50</MDIBounds>
+          <MDIBounds>0,0,124,50</MDIBounds>
           <TDIIndex>-1</TDIIndex>
           <IsSelected>false</IsSelected>
           <MDIMinimizedBounds>0,0,124,24</MDIMinimizedBounds>
@@ -105,8 +125,8 @@
           <FixedHeight>0</FixedHeight>
           <FixedWidth>0</FixedWidth>
           <ContainerSize>
-            <Width>1002</Width>
-            <Height>580.66666666666663</Height>
+            <Width>1204</Width>
+            <Height>651.2</Height>
           </ContainerSize>
           <PreviousHostWidth>90</PreviousHostWidth>
           <PreviousHostHeight>90</PreviousHostHeight>
@@ -125,11 +145,11 @@
           <ZorderInFloatMode>0</ZorderInFloatMode>
           <TabOrderIndex>-1</TabOrderIndex>
           <PreviousContainerDesiredSize>
-            <Width>270</Width>
-            <Height>124</Height>
+            <Width>324.8</Width>
+            <Height>651.2</Height>
           </PreviousContainerDesiredSize>
-          <PreviousDesiredWidthInDockedMode>270</PreviousDesiredWidthInDockedMode>
-          <PreviousDesiredHeightInDockedMode>30</PreviousDesiredHeightInDockedMode>
+          <PreviousDesiredWidthInDockedMode>324.8</PreviousDesiredWidthInDockedMode>
+          <PreviousDesiredHeightInDockedMode>214.4</PreviousDesiredHeightInDockedMode>
           <Name>workspaceExplorerMainView</Name>
           <ShowTopmostMenuItem>false</ShowTopmostMenuItem>
           <TopMost>false</TopMost>
@@ -139,8 +159,8 @@
           <SideFloating>Left</SideFloating>
           <TargetDocked />
           <TargetFloating />
-          <DesiredWidthInDockedMode>270</DesiredWidthInDockedMode>
-          <DesiredHeightInDockedMode>144</DesiredHeightInDockedMode>
+          <DesiredWidthInDockedMode>324.8</DesiredWidthInDockedMode>
+          <DesiredHeightInDockedMode>214.4</DesiredHeightInDockedMode>
           <DesiredWidthInFloatingMode>270</DesiredWidthInFloatingMode>
           <DesiredHeightInFloatingMode>30</DesiredHeightInFloatingMode>
           <NoDock>false</NoDock>
@@ -150,14 +170,14 @@
           <IsActiveWindow>false</IsActiveWindow>
           <CanSerialize>true</CanSerialize>
           <WindowRect />
-          <TabGroupName>22668197</TabGroupName>
+          <TabGroupName>62840338</TabGroupName>
           <IsTabGroupOwner>false</IsTabGroupOwner>
           <SideTabOrder>0</SideTabOrder>
           <IndexInDockMode>2</IndexInDockMode>
           <IndexInFloatMode>2</IndexInFloatMode>
           <TabOrderInDockMode>0</TabOrderInDockMode>
           <TabOrderInFloatMode>0</TabOrderInFloatMode>
-          <MDIBounds>0,0,100,50</MDIBounds>
+          <MDIBounds>0,0,124,50</MDIBounds>
           <TDIIndex>-1</TDIIndex>
           <IsSelected>false</IsSelected>
           <MDIMinimizedBounds>0,0,124,24</MDIMinimizedBounds>
@@ -187,8 +207,8 @@
           <FixedHeight>0</FixedHeight>
           <FixedWidth>0</FixedWidth>
           <ContainerSize>
-            <Width>270</Width>
-            <Height>580.66666666666663</Height>
+            <Width>324.8</Width>
+            <Height>651.2</Height>
           </ContainerSize>
           <PreviousHostWidth>90</PreviousHostWidth>
           <PreviousHostHeight>90</PreviousHostHeight>
@@ -207,11 +227,11 @@
           <ZorderInFloatMode>0</ZorderInFloatMode>
           <TabOrderIndex>-1</TabOrderIndex>
           <PreviousContainerDesiredSize>
-            <Width>270</Width>
-            <Height>124</Height>
+            <Width>324.8</Width>
+            <Height>651.2</Height>
           </PreviousContainerDesiredSize>
-          <PreviousDesiredWidthInDockedMode>90</PreviousDesiredWidthInDockedMode>
-          <PreviousDesiredHeightInDockedMode>90</PreviousDesiredHeightInDockedMode>
+          <PreviousDesiredWidthInDockedMode>324.8</PreviousDesiredWidthInDockedMode>
+          <PreviousDesiredHeightInDockedMode>432.8</PreviousDesiredHeightInDockedMode>
           <Name>toolboxMainView</Name>
           <ShowTopmostMenuItem>false</ShowTopmostMenuItem>
           <TopMost>false</TopMost>
@@ -221,8 +241,8 @@
           <SideFloating>Left</SideFloating>
           <TargetDocked>workspaceExplorerMainView</TargetDocked>
           <TargetFloating />
-          <DesiredWidthInDockedMode>270</DesiredWidthInDockedMode>
-          <DesiredHeightInDockedMode>432.66666666666669</DesiredHeightInDockedMode>
+          <DesiredWidthInDockedMode>324.8</DesiredWidthInDockedMode>
+          <DesiredHeightInDockedMode>432.8</DesiredHeightInDockedMode>
           <DesiredWidthInFloatingMode>90</DesiredWidthInFloatingMode>
           <DesiredHeightInFloatingMode>90</DesiredHeightInFloatingMode>
           <NoDock>false</NoDock>
@@ -232,14 +252,14 @@
           <IsActiveWindow>false</IsActiveWindow>
           <CanSerialize>true</CanSerialize>
           <WindowRect />
-          <TabGroupName>42007273</TabGroupName>
+          <TabGroupName>56902578</TabGroupName>
           <IsTabGroupOwner>false</IsTabGroupOwner>
           <SideTabOrder>0</SideTabOrder>
           <IndexInDockMode>1</IndexInDockMode>
           <IndexInFloatMode>1</IndexInFloatMode>
           <TabOrderInDockMode>0</TabOrderInDockMode>
           <TabOrderInFloatMode>0</TabOrderInFloatMode>
-          <MDIBounds>0,0,100,50</MDIBounds>
+          <MDIBounds>0,0,124,50</MDIBounds>
           <TDIIndex>-1</TDIIndex>
           <IsSelected>false</IsSelected>
           <MDIMinimizedBounds>0,0,124,24</MDIMinimizedBounds>
@@ -269,8 +289,8 @@
           <FixedHeight>0</FixedHeight>
           <FixedWidth>0</FixedWidth>
           <ContainerSize>
-            <Width>270</Width>
-            <Height>580.66666666666663</Height>
+            <Width>324.8</Width>
+            <Height>651.2</Height>
           </ContainerSize>
           <PreviousHostWidth>90</PreviousHostWidth>
           <PreviousHostHeight>90</PreviousHostHeight>
@@ -294,7 +314,7 @@
           </PreviousContainerDesiredSize>
           <PreviousDesiredWidthInDockedMode>0</PreviousDesiredWidthInDockedMode>
           <PreviousDesiredHeightInDockedMode>0</PreviousDesiredHeightInDockedMode>
-          <Name>DataScreen1</Name>
+          <Name>DataScreen2</Name>
           <ShowTopmostMenuItem>false</ShowTopmostMenuItem>
           <TopMost>false</TopMost>
           <State>Document</State>
@@ -311,7 +331,7 @@
           <CanDock>false</CanDock>
           <CanClose>false</CanClose>
           <IsSelectedTab>false</IsSelectedTab>
-          <IsActiveWindow>true</IsActiveWindow>
+          <IsActiveWindow>false</IsActiveWindow>
           <CanSerialize>true</CanSerialize>
           <WindowRect />
           <TabGroupName />
@@ -321,7 +341,7 @@
           <IndexInFloatMode>0</IndexInFloatMode>
           <TabOrderInDockMode>0</TabOrderInDockMode>
           <TabOrderInFloatMode>0</TabOrderInFloatMode>
-          <MDIBounds>0,0,100,50</MDIBounds>
+          <MDIBounds>0,0,124,50</MDIBounds>
           <TDIIndex>0</TDIIndex>
           <IsSelected>true</IsSelected>
           <MDIMinimizedBounds>0,0,124,24</MDIMinimizedBounds>

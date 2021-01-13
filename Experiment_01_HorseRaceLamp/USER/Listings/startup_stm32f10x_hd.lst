@@ -552,12 +552,11 @@ ARM Macro Assembler    Page 9
               00000000 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
-ork --depend=..\obj\startup_stm32f10x_hd.d -o..\obj\startup_stm32f10x_hd.o -IE:
-\VS_GDB\ARM\testF103\STM32F103StandardRoutine\Experiment_01_HorseRaceLamp\USER\
-RTE -I"C:\For DXH\MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include" -I"C:\F
-or DXH\MDK\ARM\CMSIS\Include" --predefine="__MICROLIB SETA 1" --predefine="__UV
-ISION_VERSION SETA 521" --predefine="STM32F10X_HD SETA 1" --list=.\listings\sta
-rtup_stm32f10x_hd.lst ..\CORE\startup_stm32f10x_hd.s
+ork --depend=..\obj\startup_stm32f10x_hd.d -o..\obj\startup_stm32f10x_hd.o -I.\
+RTE\_LED -IC:\ForEden\KEIL\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include -IC
+:\ForEden\KEIL\ARM\CMSIS\Include --predefine="__MICROLIB SETA 1" --predefine="_
+_UVISION_VERSION SETA 524" --predefine="STM32F10X_MD SETA 1" --list=.\listings\
+startup_stm32f10x_hd.lst ..\CORE\startup_stm32f10x_hd.s
 
 
 

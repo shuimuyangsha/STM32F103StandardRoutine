@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Experiment_11_TouchKey", "E
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LobotSerialServo_LX224", "Experiment_Other\LobotSerialServo_LX224\PROJECT\VS\LobotSerialServo_LX224\LobotSerialServo_LX224.vcxproj", "{4BDD2F6C-5AB9-40FF-A5E8-06703D2C7F0D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XY_ScatterDiagram", "Experiment_Other\XY_ScatterDiagram\Project\VS\XY_ScatterDiagram\XY_ScatterDiagram.vcxproj", "{8795D12A-6A41-4A3F-88E1-B5FD813904D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|VisualGDB = Debug|VisualGDB
@@ -113,6 +115,10 @@ Global
 		{4BDD2F6C-5AB9-40FF-A5E8-06703D2C7F0D}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
 		{4BDD2F6C-5AB9-40FF-A5E8-06703D2C7F0D}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
 		{4BDD2F6C-5AB9-40FF-A5E8-06703D2C7F0D}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{8795D12A-6A41-4A3F-88E1-B5FD813904D6}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{8795D12A-6A41-4A3F-88E1-B5FD813904D6}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{8795D12A-6A41-4A3F-88E1-B5FD813904D6}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{8795D12A-6A41-4A3F-88E1-B5FD813904D6}.Release|VisualGDB.Build.0 = Release|VisualGDB
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

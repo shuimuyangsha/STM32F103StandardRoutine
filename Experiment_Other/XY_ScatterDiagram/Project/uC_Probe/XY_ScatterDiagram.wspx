@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<workspace>
+  <symbolbrowser>
+    <symbolfiles>
+      <symbolfile Filepath="..\..\..\..\..\VisualGDB\Debug\XY_ScatterDiagram.elf" ExternallyAdded="false" Core_Identifier="Core0" Device_Identifier="Device0" FileType="ELF_File" />
+    </symbolfiles>
+  </symbolbrowser>
+  <screens SelectedScreenId="DataScreen2">
+    <screen RegisteredName="DataScreen2" ScreenHeader="DataScreen1" ScreenType="DataScreen" />
+  </screens>
+  <nodes>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode1" OffsetX="960" OffsetY="190" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="600" Height="350" ZIndex="0" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="false" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="CustomXYChart" Type="CustomXYGraph">
+          <definitions Width="600" Height="350" XAxisFrom="0.1" XAxisTo="6" XAxisStep="10" UseLogarithmicScaleForXAxis="false" XAxisTitle="aaa" ShowMinorTicksForXAxis="true" ShowMajorTicksForXAxis="true" ShowMinorGridlinesForXAxis="true" ShowMajorGridlinesForXAxis="true" ShowGridStripesForXAxis="true" YAxisFrom="-10" YAxisTo="10" YAxisStep="10" UseLogarithmicScaleForYAxis="false" YAxisTitle="bbb" ShowMinorTicksForYAxis="true" ShowMajorTicksForYAxis="true" ShowMinorGridlinesForYAxis="true" ShowMajorGridlinesForYAxis="true" ShowGridStripesForYAxis="false" ChartTitle="X vs Y Chart" UseIndexTable="false" UseIndexOfXSymbol_ForYValue="false" UseIndexOfYSymbol_ForXValue="false" PlotMode="Plot" BufferSize="200" PlotModeType="Strip" EraseTrace="true" Color="#FF0000FF" ColorBrush="#FF0000FF" ShowTooltip="true" ShowArea="false" ShowPoints="true" ShowLine="false" />
+          <symbolseries>
+            <serie SymbolPathForXAxis="debugX1" SymbolPathForYAxis="debugY1" />
+          </symbolseries>
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="debugY1" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+        <symbol path="debugX1" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode2" OffsetX="960" OffsetY="110" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="300" Height="60" ZIndex="1" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="Numeric" Type="Numeric1">
+          <definitions NumericFontFamilyValue="Arial Black" NumericFontSizeValue="50" NumericForegroundValue="#FFFFFFFF" NumericTextAlignmentValue="Right" IsThousandSeparatorEnabled="true" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" LeadingZeroes="0" DecimalPlaces="1" Notation="Regular" Representation="Decimal" Width="300" Height="60" />
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="debugX1" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+    <node ScreenId="DataScreen2" NodeId="CustomDiagramNode3" OffsetX="1449.8999999985099" OffsetY="110" AllowMove="true" AllowResize="false" AllowRotate="false" AllowSelect="true" Width="300.20000000298023" Height="60" ZIndex="2" IsLocked="false" RotateAngle="0" Pivot="0.5,0.5" UpdateWhenVisible="true" IsWritableControl="false" WritableValue="0" IsDrawingShape="false" ShapeTypeStr="" RibbonTool="None">
+      <innercontent>
+        <content ControlType="Numeric" Type="Numeric1">
+          <definitions NumericFontFamilyValue="Arial Black" NumericFontSizeValue="50" NumericForegroundValue="#FFFFFFFF" NumericTextAlignmentValue="Right" IsThousandSeparatorEnabled="true" ScalingFactor="1" ScalingOffset="0" ScalingFormat="" LeadingZeroes="0" DecimalPlaces="1" Notation="Regular" Representation="Decimal" Width="300" Height="60" />
+        </content>
+      </innercontent>
+      <symbols>
+        <symbol path="debugY1" IsAnArrayElement="false" ElementIndex="0" IsCustomSymbol="false" Mask_Enabled="false" Mask_Start_Bit="0" Mask_End_Bit="0" />
+      </symbols>
+    </node>
+  </nodes>
+  <screens_objects />
+  <explorer>
+    <content>
+      <nodes>
+        <node IsEnable="true" Name="Project1" NodeType="Project" ScreenType="None" UniqueID="Project2">
+          <node IsEnable="true" Name="DataScreen1" NodeType="Screen" ScreenType="DataScreen" UniqueID="DataScreen2" />
+        </node>
+      </nodes>
+    </content>
+  </explorer>
+  <application IsWorkspaceLocked="false" IsInFullScreenMode="false">
+    <docking>
+      <ArrayOfDockingParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <DockingParams>
+          <PreviousFloatingWindowRect />
+          <FloatWindowState>Normal</FloatWindowState>
+          <ZorderInFloatMode>0</ZorderInFloatMode>
+          <TabOrderIndex>-1</TabOrderIndex>
+          <PreviousContainerDesiredSize>
+            <Width>1204</Width>
+            <Height>0</Height>
+          </PreviousContainerDesiredSize>
+          <PreviousDesiredWidthInDockedMode>1204</PreviousDesiredWidthInDockedMode>
+          <PreviousDesiredHeightInDockedMode>356</PreviousDesiredHeightInDockedMode>
+          <Name>usrSymbolBrowser</Name>
+          <ShowTopmostMenuItem>false</ShowTopmostMenuItem>
+          <TopMost>false</TopMost>
+          <State>Dock</State>
+          <NoHeader>false</NoHeader>
+          <SideDocked>Bottom</SideDocked>
+          <SideFloating>Left</SideFloating>
+          <TargetDocked />
+          <TargetFloating />
+          <DesiredWidthInDockedMode>1204</DesiredWidthInDockedMode>
+          <DesiredHeightInDockedMode>356</DesiredHeightInDockedMode>
+          <DesiredWidthInFloatingMode>90</DesiredWidthInFloatingMode>
+          <DesiredHeightInFloatingMode>360</DesiredHeightInFloatingMode>
+          <NoDock>false</NoDock>
+          <CanDock>true</CanDock>
+          <CanClose>false</CanClose>
+          <IsSelectedTab>false</IsSelectedTab>
+          <IsActiveWindow>false</IsActiveWindow>
+          <CanSerialize>true</CanSerialize>
+          <WindowRect />
+          <TabGroupName>36265071</TabGroupName>
+          <IsTabGroupOwner>false</IsTabGroupOwner>
+          <SideTabOrder>0</SideTabOrder>
+          <IndexInDockMode>3</IndexInDockMode>
+          <IndexInFloatMode>3</IndexInFloatMode>
+          <TabOrderInDockMode>0</TabOrderInDockMode>
+          <TabOrderInFloatMode>0</TabOrderInFloatMode>
+          <MDIBounds>0,0,124,50</MDIBounds>
+          <TDIIndex>-1</TDIIndex>
+          <IsSelected>false</IsSelected>
+          <MDIMinimizedBounds>0,0,124,24</MDIMinimizedBounds>
+          <MDIWindowState>Normal</MDIWindowState>
+          <AllowMDIResize>true</AllowMDIResize>
+          <TDIGroupOrientation>Horizontal</TDIGroupOrientation>
+          <WayOfTDIGroup />
+          <DockForSide>Bottom</DockForSide>
+          <PreviousIndexInDockMode>0</PreviousIndexInDockMode>
+          <PreviousSideInDockMode>Left</PreviousSideInDockMode>
+          <DoShift>false</DoShift>
+          <SideRelativetoContainer>Left</SideRelativetoContainer>
+          <TabParent />
+          <DockWindowState>Normal</DockWindowState>
+          <CanMaximize>true</CanMaximize>
+          <CanMinimize>true</CanMinimize>
+          <CanResizeInDockedState>true</CanResizeInDockedState>
+          <CanResizeHeightInDockedState>true</CanResizeHeightInDockedState>
+          <CanResizeWidthInDockedState>true</CanResizeWidthInDockedState>
+          <CanResizeInFloatState>true</CanResizeInFloatState>
+          <CanResizeHeightInFloatState>true</CanResizeHeightInFloatState>
+          <CanResizeWidthInFloatState>true</CanResizeWidthInFloatState>
+          <CanFloatMaximize>false</CanFloatMaximize>
+          <IsFixedSize>false</IsFixedSize>
+          <IsFixedHeight>false</IsFixedHeight>
+          <IsFixedWidth>false</IsFixedWidth>
+          <FixedHeight>0</FixedHeight>
+          <FixedWidth>0</FixedWidth>
+          <ContainerSize>
+            <Width>1204</Width>
+            <Height>651.2</Height>
+          </ContainerSize>
+          <PreviousHostWidth>90</PreviousHostWidth>
+          <PreviousHostHeight>90</PreviousHostHeight>
+          <PreviousContainerHeight>90</PreviousContainerHeight>
+          <PreviousContainerWidth>90</PreviousContainerWidth>
+          <TargetAutoHide />
+          <SplitPanelOffset>0</SplitPanelOffset>
+          <IsSwapped>false</IsSwapped>
+          <IsPinned>false</IsPinned>
+          <ShowPin>false</ShowPin>
+          <AllowPin>false</AllowPin>
+        </DockingParams>
+        <DockingParams>
+          <PreviousFloatingWindowRect />
+          <FloatWindowState>Normal</FloatWindowState>
+          <ZorderInFloatMode>0</ZorderInFloatMode>
+          <TabOrderIndex>-1</TabOrderIndex>
+          <PreviousContainerDesiredSize>
+            <Width>324.8</Width>
+            <Height>651.2</Height>
+          </PreviousContainerDesiredSize>
+          <PreviousDesiredWidthInDockedMode>324.8</PreviousDesiredWidthInDockedMode>
+          <PreviousDesiredHeightInDockedMode>214.4</PreviousDesiredHeightInDockedMode>
+          <Name>workspaceExplorerMainView</Name>
+          <ShowTopmostMenuItem>false</ShowTopmostMenuItem>
+          <TopMost>false</TopMost>
+          <State>Dock</State>
+          <NoHeader>false</NoHeader>
+          <SideDocked>Left</SideDocked>
+          <SideFloating>Left</SideFloating>
+          <TargetDocked />
+          <TargetFloating />
+          <DesiredWidthInDockedMode>324.8</DesiredWidthInDockedMode>
+          <DesiredHeightInDockedMode>214.4</DesiredHeightInDockedMode>
+          <DesiredWidthInFloatingMode>270</DesiredWidthInFloatingMode>
+          <DesiredHeightInFloatingMode>30</DesiredHeightInFloatingMode>
+          <NoDock>false</NoDock>
+          <CanDock>true</CanDock>
+          <CanClose>false</CanClose>
+          <IsSelectedTab>false</IsSelectedTab>
+          <IsActiveWindow>false</IsActiveWindow>
+          <CanSerialize>true</CanSerialize>
+          <WindowRect />
+          <TabGroupName>63453834</TabGroupName>
+          <IsTabGroupOwner>false</IsTabGroupOwner>
+          <SideTabOrder>0</SideTabOrder>
+          <IndexInDockMode>2</IndexInDockMode>
+          <IndexInFloatMode>2</IndexInFloatMode>
+          <TabOrderInDockMode>0</TabOrderInDockMode>
+          <TabOrderInFloatMode>0</TabOrderInFloatMode>
+          <MDIBounds>0,0,124,50</MDIBounds>
+          <TDIIndex>-1</TDIIndex>
+          <IsSelected>false</IsSelected>
+          <MDIMinimizedBounds>0,0,124,24</MDIMinimizedBounds>
+          <MDIWindowState>Normal</MDIWindowState>
+          <AllowMDIResize>true</AllowMDIResize>
+          <TDIGroupOrientation>Horizontal</TDIGroupOrientation>
+          <WayOfTDIGroup />
+          <DockForSide>Left</DockForSide>
+          <PreviousIndexInDockMode>0</PreviousIndexInDockMode>
+          <PreviousSideInDockMode>Top</PreviousSideInDockMode>
+          <DoShift>false</DoShift>
+          <SideRelativetoContainer>Left</SideRelativetoContainer>
+          <TabParent />
+          <DockWindowState>Normal</DockWindowState>
+          <CanMaximize>true</CanMaximize>
+          <CanMinimize>true</CanMinimize>
+          <CanResizeInDockedState>true</CanResizeInDockedState>
+          <CanResizeHeightInDockedState>true</CanResizeHeightInDockedState>
+          <CanResizeWidthInDockedState>true</CanResizeWidthInDockedState>
+          <CanResizeInFloatState>true</CanResizeInFloatState>
+          <CanResizeHeightInFloatState>true</CanResizeHeightInFloatState>
+          <CanResizeWidthInFloatState>true</CanResizeWidthInFloatState>
+          <CanFloatMaximize>false</CanFloatMaximize>
+          <IsFixedSize>false</IsFixedSize>
+          <IsFixedHeight>false</IsFixedHeight>
+          <IsFixedWidth>false</IsFixedWidth>
+          <FixedHeight>0</FixedHeight>
+          <FixedWidth>0</FixedWidth>
+          <ContainerSize>
+            <Width>324.8</Width>
+            <Height>651.2</Height>
+          </ContainerSize>
+          <PreviousHostWidth>90</PreviousHostWidth>
+          <PreviousHostHeight>90</PreviousHostHeight>
+          <PreviousContainerHeight>90</PreviousContainerHeight>
+          <PreviousContainerWidth>90</PreviousContainerWidth>
+          <TargetAutoHide />
+          <SplitPanelOffset>0</SplitPanelOffset>
+          <IsSwapped>true</IsSwapped>
+          <IsPinned>false</IsPinned>
+          <ShowPin>false</ShowPin>
+          <AllowPin>false</AllowPin>
+        </DockingParams>
+        <DockingParams>
+          <PreviousFloatingWindowRect />
+          <FloatWindowState>Normal</FloatWindowState>
+          <ZorderInFloatMode>0</ZorderInFloatMode>
+          <TabOrderIndex>-1</TabOrderIndex>
+          <PreviousContainerDesiredSize>
+            <Width>324.8</Width>
+            <Height>651.2</Height>
+          </PreviousContainerDesiredSize>
+          <PreviousDesiredWidthInDockedMode>324.8</PreviousDesiredWidthInDockedMode>
+          <PreviousDesiredHeightInDockedMode>432.8</PreviousDesiredHeightInDockedMode>
+          <Name>toolboxMainView</Name>
+          <ShowTopmostMenuItem>false</ShowTopmostMenuItem>
+          <TopMost>false</TopMost>
+          <State>Dock</State>
+          <NoHeader>false</NoHeader>
+          <SideDocked>Bottom</SideDocked>
+          <SideFloating>Left</SideFloating>
+          <TargetDocked>workspaceExplorerMainView</TargetDocked>
+          <TargetFloating />
+          <DesiredWidthInDockedMode>324.8</DesiredWidthInDockedMode>
+          <DesiredHeightInDockedMode>432.8</DesiredHeightInDockedMode>
+          <DesiredWidthInFloatingMode>90</DesiredWidthInFloatingMode>
+          <DesiredHeightInFloatingMode>90</DesiredHeightInFloatingMode>
+          <NoDock>false</NoDock>
+          <CanDock>true</CanDock>
+          <CanClose>false</CanClose>
+          <IsSelectedTab>false</IsSelectedTab>
+          <IsActiveWindow>false</IsActiveWindow>
+          <CanSerialize>true</CanSerialize>
+          <WindowRect />
+          <TabGroupName>39486963</TabGroupName>
+          <IsTabGroupOwner>false</IsTabGroupOwner>
+          <SideTabOrder>0</SideTabOrder>
+          <IndexInDockMode>1</IndexInDockMode>
+          <IndexInFloatMode>1</IndexInFloatMode>
+          <TabOrderInDockMode>0</TabOrderInDockMode>
+          <TabOrderInFloatMode>0</TabOrderInFloatMode>
+          <MDIBounds>0,0,124,50</MDIBounds>
+          <TDIIndex>-1</TDIIndex>
+          <IsSelected>false</IsSelected>
+          <MDIMinimizedBounds>0,0,124,24</MDIMinimizedBounds>
+          <MDIWindowState>Normal</MDIWindowState>
+          <AllowMDIResize>true</AllowMDIResize>
+          <TDIGroupOrientation>Horizontal</TDIGroupOrientation>
+          <WayOfTDIGroup />
+          <DockForSide>Left</DockForSide>
+          <PreviousIndexInDockMode>0</PreviousIndexInDockMode>
+          <PreviousSideInDockMode>Left</PreviousSideInDockMode>
+          <DoShift>false</DoShift>
+          <SideRelativetoContainer>Left</SideRelativetoContainer>
+          <TabParent />
+          <DockWindowState>Normal</DockWindowState>
+          <CanMaximize>true</CanMaximize>
+          <CanMinimize>true</CanMinimize>
+          <CanResizeInDockedState>true</CanResizeInDockedState>
+          <CanResizeHeightInDockedState>true</CanResizeHeightInDockedState>
+          <CanResizeWidthInDockedState>true</CanResizeWidthInDockedState>
+          <CanResizeInFloatState>true</CanResizeInFloatState>
+          <CanResizeHeightInFloatState>true</CanResizeHeightInFloatState>
+          <CanResizeWidthInFloatState>true</CanResizeWidthInFloatState>
+          <CanFloatMaximize>false</CanFloatMaximize>
+          <IsFixedSize>false</IsFixedSize>
+          <IsFixedHeight>false</IsFixedHeight>
+          <IsFixedWidth>false</IsFixedWidth>
+          <FixedHeight>0</FixedHeight>
+          <FixedWidth>0</FixedWidth>
+          <ContainerSize>
+            <Width>324.8</Width>
+            <Height>651.2</Height>
+          </ContainerSize>
+          <PreviousHostWidth>90</PreviousHostWidth>
+          <PreviousHostHeight>90</PreviousHostHeight>
+          <PreviousContainerHeight>90</PreviousContainerHeight>
+          <PreviousContainerWidth>90</PreviousContainerWidth>
+          <TargetAutoHide />
+          <SplitPanelOffset>0</SplitPanelOffset>
+          <IsSwapped>true</IsSwapped>
+          <IsPinned>false</IsPinned>
+          <ShowPin>false</ShowPin>
+          <AllowPin>false</AllowPin>
+        </DockingParams>
+        <DockingParams>
+          <PreviousFloatingWindowRect />
+          <FloatWindowState>Normal</FloatWindowState>
+          <ZorderInFloatMode>0</ZorderInFloatMode>
+          <TabOrderIndex>0</TabOrderIndex>
+          <PreviousContainerDesiredSize>
+            <Width>0</Width>
+            <Height>0</Height>
+          </PreviousContainerDesiredSize>
+          <PreviousDesiredWidthInDockedMode>0</PreviousDesiredWidthInDockedMode>
+          <PreviousDesiredHeightInDockedMode>0</PreviousDesiredHeightInDockedMode>
+          <Name>DataScreen2</Name>
+          <ShowTopmostMenuItem>false</ShowTopmostMenuItem>
+          <TopMost>false</TopMost>
+          <State>Document</State>
+          <NoHeader>false</NoHeader>
+          <SideDocked>Left</SideDocked>
+          <SideFloating>Left</SideFloating>
+          <TargetDocked />
+          <TargetFloating />
+          <DesiredWidthInDockedMode>90</DesiredWidthInDockedMode>
+          <DesiredHeightInDockedMode>90</DesiredHeightInDockedMode>
+          <DesiredWidthInFloatingMode>90</DesiredWidthInFloatingMode>
+          <DesiredHeightInFloatingMode>90</DesiredHeightInFloatingMode>
+          <NoDock>false</NoDock>
+          <CanDock>false</CanDock>
+          <CanClose>false</CanClose>
+          <IsSelectedTab>false</IsSelectedTab>
+          <IsActiveWindow>true</IsActiveWindow>
+          <CanSerialize>true</CanSerialize>
+          <WindowRect />
+          <TabGroupName />
+          <IsTabGroupOwner>false</IsTabGroupOwner>
+          <SideTabOrder>0</SideTabOrder>
+          <IndexInDockMode>0</IndexInDockMode>
+          <IndexInFloatMode>0</IndexInFloatMode>
+          <TabOrderInDockMode>0</TabOrderInDockMode>
+          <TabOrderInFloatMode>0</TabOrderInFloatMode>
+          <MDIBounds>0,0,124,50</MDIBounds>
+          <TDIIndex>0</TDIIndex>
+          <IsSelected>true</IsSelected>
+          <MDIMinimizedBounds>0,0,124,24</MDIMinimizedBounds>
+          <MDIWindowState>Normal</MDIWindowState>
+          <AllowMDIResize>true</AllowMDIResize>
+          <TDIGroupOrientation>Horizontal</TDIGroupOrientation>
+          <WayOfTDIGroup />
+          <DockForSide>Left</DockForSide>
+          <PreviousIndexInDockMode>0</PreviousIndexInDockMode>
+          <PreviousSideInDockMode>Left</PreviousSideInDockMode>
+          <DoShift>false</DoShift>
+          <SideRelativetoContainer>Left</SideRelativetoContainer>
+          <TabParent />
+          <DockWindowState>Normal</DockWindowState>
+          <CanMaximize>true</CanMaximize>
+          <CanMinimize>true</CanMinimize>
+          <CanResizeInDockedState>true</CanResizeInDockedState>
+          <CanResizeHeightInDockedState>true</CanResizeHeightInDockedState>
+          <CanResizeWidthInDockedState>true</CanResizeWidthInDockedState>
+          <CanResizeInFloatState>true</CanResizeInFloatState>
+          <CanResizeHeightInFloatState>true</CanResizeHeightInFloatState>
+          <CanResizeWidthInFloatState>true</CanResizeWidthInFloatState>
+          <CanFloatMaximize>true</CanFloatMaximize>
+          <IsFixedSize>false</IsFixedSize>
+          <IsFixedHeight>false</IsFixedHeight>
+          <IsFixedWidth>false</IsFixedWidth>
+          <FixedHeight>0</FixedHeight>
+          <FixedWidth>0</FixedWidth>
+          <ContainerSize>
+            <Width>0</Width>
+            <Height>0</Height>
+          </ContainerSize>
+          <PreviousHostWidth>90</PreviousHostWidth>
+          <PreviousHostHeight>90</PreviousHostHeight>
+          <PreviousContainerHeight>90</PreviousContainerHeight>
+          <PreviousContainerWidth>90</PreviousContainerWidth>
+          <TargetAutoHide />
+          <SplitPanelOffset>0</SplitPanelOffset>
+          <IsSwapped>false</IsSwapped>
+          <IsPinned>false</IsPinned>
+          <ShowPin>false</ShowPin>
+          <AllowPin>false</AllowPin>
+        </DockingParams>
+      </ArrayOfDockingParams>
+    </docking>
+  </application>
+</workspace>
